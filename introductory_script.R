@@ -5,7 +5,7 @@
 library(tidyverse)
 library(readr)
 library(ggrepel)
-data <- read.csv("~/mstats/DataViz/data/owid-energy-data.csv")
+data <- read.csv("owid-energy-data.csv")
 data$gdp.billion <- data$gdp/10^9
 # Add the continents
 countryContinent <- read.csv("~/Documents/MStatistics/DataVisualisation/countryContinent.csv", header=TRUE)
@@ -43,7 +43,6 @@ ggplot(aes(x=primary_energy_consumption,y=gdp.billion,color=population),data = g
 
 gdp.lowcarbonenergy.df <- data %>% select(gdp.billion,country,low_carbon_elec_per_capita,continent)
 ggplot(aes(y=fossil_fuel_consumption,x=continent),data=data)+geom_boxplot()
-View(data)
 t <- pivot_longer(data,cols = c("coal_share_energy","gas_share_energy","nuclear_share_energy","hydro_share_energy","renewables_share_energy","oil_share_energy"),names_to = "share energy",values_to = "value")
 t <- t %>% filter(year=="2013")
 ggplot(aes(x=t$`share energy`,y=value,fill=continent),data = t)+geom_violin(scale = "width",alpha=.6)+scale_fill_viridis_d()+theme_light()+coord_polar()
@@ -67,5 +66,8 @@ ggplot(data = t.lf,aes(y=year,x=t.lf$`electricity source`))+
   facet_wrap(.~continent,scales = "free")+geom_violin(stat = density(t.lf$`consumption per capita (kilowatt-hours)`))
 View(t.lf)
 
-ggplot(data = t.lf,aes(y=year,x=t.lf$`electricity source`,size=t.lf$))+geom_boxplot()
+ggplot(data = t.lf,aes(x=year,y=t.lf$`electricity source`,size=t.lf$`consumption per capita (kilowatt-hours)`))+geom_ribbon()
 t.lf$year
+
+df.energysource2015 <- data %>% filter(year==2015) %>% select("coal_share_energy","gas_share_energy","nuclear_share_energy","hydro_share_energy","renewables_share_energy","oil_share_energy","country","continent") 
+write.csv(df.energysource2015,file = "df.energysource2015.csv")
