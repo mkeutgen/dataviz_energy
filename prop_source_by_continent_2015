@@ -1,0 +1,25 @@
+"","country","continent","share energy","consumption","grand.sum","proportion"
+"1","Africa",NA,"coal_share_energy",22.485,106.095,0.211932701823837
+"2","Africa",NA,"gas_share_energy",25.823,106.095,0.243395070455724
+"3","Africa",NA,"nuclear_share_energy",0.622,106.095,0.00586267024836232
+"4","Africa",NA,"hydro_share_energy",6.095,106.095,0.0574485131250295
+"5","Africa",NA,"renewables_share_energy",7.1,106.095,0.0669211555681229
+"6","Africa",NA,"oil_share_energy",43.97,106.095,0.414439888778925
+"7","Europe",NA,"coal_share_energy",17.155,106.996,0.160333096564358
+"8","Europe",NA,"gas_share_energy",22.145,106.996,0.206970354031926
+"9","Europe",NA,"nuclear_share_energy",10.653,106.996,0.0995644696998019
+"10","Europe",NA,"hydro_share_energy",6.997,106.996,0.0653949680361883
+"11","Europe",NA,"renewables_share_energy",14.612,106.996,0.136565852929081
+"12","Europe",NA,"oil_share_energy",35.434,106.996,0.331171258738644
+"13","North America",NA,"coal_share_energy",14.889,105.276,0.141428245754018
+"14","North America",NA,"gas_share_energy",29.542,105.276,0.28061476499867
+"15","North America",NA,"nuclear_share_energy",7.615,105.276,0.0723336752916144
+"16","North America",NA,"hydro_share_energy",5.277,105.276,0.0501253847030662
+"17","North America",NA,"renewables_share_energy",9.532,105.276,0.0905429537596413
+"18","North America",NA,"oil_share_energy",38.421,105.276,0.36495497549299
+"19","South Africa","Africa","coal_share_energy",69.671,100.122,0.695861049519586
+"20","South Africa","Africa","gas_share_energy",3.081,100.122,0.0307724576017259
+"21","South Africa","Africa","nuclear_share_energy",2.209,100.122,0.0220630830386928
+"22","South Africa","Africa","hydro_share_energy",0.145,100.122,0.00144823315555023
+"23","South Africa","Africa","renewables_share_energy",1.27,100.122,0.0126845248796468
+"24","South Africa","Africa","oil_share_energy",23.746,100.122,0.237170651804798
