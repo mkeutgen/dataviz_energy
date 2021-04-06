@@ -69,5 +69,9 @@ View(t.lf)
 ggplot(data = t.lf,aes(x=year,y=t.lf$`electricity source`,size=t.lf$`consumption per capita (kilowatt-hours)`))+geom_ribbon()
 t.lf$year
 
-df.energysource2015 <- data %>% filter(year==2015) %>% select("coal_share_energy","gas_share_energy","nuclear_share_energy","hydro_share_energy","renewables_share_energy","oil_share_energy","country","continent") 
-write.csv(df.energysource2015,file = "df.energysource2015.csv")
+df.energysource2015 <- data %>% filter(year==2015) %>% select("coal_share_energy","gas_share_energy","nuclear_share_energy",
+                                                              "hydro_share_energy","renewables_share_energy","oil_share_energy","country","continent") 
+df.energysource2015$coal_share_energy
+df.lf <- pivot_longer(data=df.energysource2015,cols = c("coal_share_energy","gas_share_energy","nuclear_share_energy","hydro_share_energy","renewables_share_energy","oil_share_energy"),values_to="consumption",names_to="share energy")
+
+write.csv(df.lf,file = "df.energysource2015.csv")

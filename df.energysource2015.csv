@@ -1,240 +1,1435 @@
-"","coal_share_energy","gas_share_energy","nuclear_share_energy","hydro_share_energy","renewables_share_energy","oil_share_energy","country","continent"
-"1",NA,NA,NA,NA,NA,NA,"Afghanistan","Asia"
-"2",22.485,25.823,0.622,6.095,7.1,43.97,"Africa",NA
-"3",NA,NA,NA,NA,NA,NA,"Albania","Europe"
-"4",0.25,61.415,0,0.059,0.091,38.244,"Algeria","Africa"
-"5",NA,NA,NA,NA,NA,NA,"American Samoa","Oceania"
-"6",NA,NA,NA,NA,NA,NA,"Angola","Africa"
-"7",NA,NA,NA,NA,NA,NA,"Antigua and Barbuda","Americas"
-"8",1.588,46.837,1.788,10.609,12.913,36.874,"Argentina","Americas"
-"9",NA,NA,NA,NA,NA,NA,"Armenia","Asia"
-"10",NA,NA,NA,NA,NA,NA,"Aruba","Americas"
-"11",NA,NA,NA,NA,NA,NA,"Asia Pacific",NA
-"12",33.326,25.97,0,2.198,6.504,34.2,"Australia","Oceania"
-"13",9.794,20.692,0,24.343,33.107,36.408,"Austria","Europe"
-"14",0.021,65.185,0,2.423,2.571,32.224,"Azerbaijan","Asia"
-"15",NA,NA,NA,NA,NA,NA,"Bahamas","Americas"
-"16",NA,NA,NA,NA,NA,NA,"Bahrain","Asia"
-"17",8.429,70.249,0,0.617,0.762,20.559,"Bangladesh","Asia"
-"18",NA,NA,NA,NA,NA,NA,"Barbados","Americas"
-"19",3.202,66.539,0,0.104,0.238,29.938,"Belarus","Europe"
-"20",5.798,23.394,9.747,0.119,5.865,55.196,"Belgium","Europe"
-"21",NA,NA,NA,NA,NA,NA,"Belize","Americas"
-"22",NA,NA,NA,NA,NA,NA,"Benin","Africa"
-"23",NA,NA,NA,NA,NA,NA,"Bermuda","Americas"
-"24",NA,NA,NA,NA,NA,NA,"Bhutan","Asia"
-"25",NA,NA,NA,NA,NA,NA,"Bolivia","Americas"
-"26",NA,NA,NA,NA,NA,NA,"Bosnia and Herzegovina","Europe"
-"27",NA,NA,NA,NA,NA,NA,"Botswana","Africa"
-"28",6.032,12.635,1.097,26.781,38.632,41.604,"Brazil","Americas"
-"29",NA,NA,NA,NA,NA,NA,"British Virgin Islands","Americas"
-"30",NA,NA,NA,NA,NA,NA,"Brunei","Asia"
-"31",34.298,13.498,17.503,6.443,9.977,23.965,"Bulgaria","Europe"
-"32",NA,NA,NA,NA,NA,NA,"Burkina Faso","Africa"
-"33",NA,NA,NA,NA,NA,NA,"Burma",NA
-"34",NA,NA,NA,NA,NA,NA,"Burundi","Africa"
-"35",NA,NA,NA,NA,NA,NA,"CIS",NA
-"36",NA,NA,NA,NA,NA,NA,"Cambodia","Asia"
-"37",NA,NA,NA,NA,NA,NA,"Cameroon","Africa"
-"38",5.95,28.235,6.58,24.873,28.001,31.234,"Canada","Americas"
-"39",NA,NA,NA,NA,NA,NA,"Cape Verde","Africa"
-"40",NA,NA,NA,NA,NA,NA,"Cayman Islands","Americas"
-"41",NA,NA,NA,NA,NA,NA,"Central African Republic","Africa"
-"42",NA,NA,NA,NA,NA,NA,"Central America",NA
-"43",NA,NA,NA,NA,NA,NA,"Chad","Africa"
-"44",20.478,11.615,0,14.387,19.894,48.014,"Chile","Americas"
-"45",63.914,5.59,1.245,8.096,10.188,19.063,"China","Asia"
-"46",12.15,23.576,0,23.768,24.863,39.412,"Colombia","Americas"
-"47",NA,NA,NA,NA,NA,NA,"Comoros","Africa"
-"48",NA,NA,NA,NA,NA,NA,"Congo","Africa"
-"49",NA,NA,NA,NA,NA,NA,"Cook Islands","Oceania"
-"50",NA,NA,NA,NA,NA,NA,"Costa Rica","Americas"
-"51",7.857,27.004,0,18.032,21.189,43.638,"Croatia","Europe"
-"52",NA,NA,NA,NA,NA,NA,"Cuba","Americas"
-"53",0.133,0,0,0,3.476,96.003,"Cyprus","Asia"
-"54",40.644,16.14,14.536,0.972,5.103,22.832,"Czechia","Europe"
-"55",NA,NA,NA,NA,NA,NA,"Democratic Republic of Congo","Africa"
-"56",10.352,17.042,0,0.023,24.696,46.572,"Denmark","Europe"
-"57",NA,NA,NA,NA,NA,NA,"Djibouti","Africa"
-"58",NA,NA,NA,NA,NA,NA,"Dominica","Americas"
-"59",NA,NA,NA,NA,NA,NA,"Dominican Republic","Americas"
-"60",NA,NA,NA,NA,NA,NA,"Eastern Africa",NA
-"61",0,4.428,0,17.866,18.607,76.874,"Ecuador","Americas"
-"62",0.967,46.634,0,3.508,4.004,48.394,"Egypt","Africa"
-"63",NA,NA,NA,NA,NA,NA,"El Salvador","Americas"
-"64",NA,NA,NA,NA,NA,NA,"Equatorial Guinea","Africa"
-"65",NA,NA,NA,NA,NA,NA,"Eritrea","Africa"
-"66",63.431,6.275,0,0.097,5.512,24.678,"Estonia","Europe"
-"67",NA,NA,NA,NA,NA,NA,"Eswatini","Africa"
-"68",NA,NA,NA,NA,NA,NA,"Ethiopia","Africa"
-"69",17.155,22.145,10.653,6.997,14.612,35.434,"Europe",NA
-"70",NA,NA,NA,NA,NA,NA,"Europe (other)",NA
-"71",NA,NA,NA,NA,NA,NA,"Faeroe Islands","Europe"
-"72",NA,NA,NA,NA,NA,NA,"Falkland Islands ",NA
-"73",NA,NA,NA,NA,NA,NA,"Fiji","Oceania"
-"74",13.879,7.151,18.581,13.245,25.632,34.757,"Finland","Europe"
-"75",3.537,14.784,40.145,4.997,9.403,32.131,"France","Europe"
-"76",NA,NA,NA,NA,NA,NA,"French Guiana","Americas"
-"77",NA,NA,NA,NA,NA,NA,"French Polynesia","Oceania"
-"78",NA,NA,NA,NA,NA,NA,"Gabon","Africa"
-"79",NA,NA,NA,NA,NA,NA,"Gambia","Africa"
-"80",NA,NA,NA,NA,NA,NA,"Georgia","Asia"
-"81",24.584,20.674,6.238,1.29,13.671,34.833,"Germany","Europe"
-"82",NA,NA,NA,NA,NA,NA,"Ghana","Africa"
-"83",NA,NA,NA,NA,NA,NA,"Gibraltar","Europe"
-"84",20.917,9.817,0,4.931,12.008,56.666,"Greece","Europe"
-"85",NA,NA,NA,NA,NA,NA,"Greenland","Americas"
-"86",NA,NA,NA,NA,NA,NA,"Grenada","Americas"
-"87",NA,NA,NA,NA,NA,NA,"Guadeloupe","Americas"
-"88",NA,NA,NA,NA,NA,NA,"Guam","Oceania"
-"89",NA,NA,NA,NA,NA,NA,"Guatemala","Americas"
-"90",NA,NA,NA,NA,NA,NA,"Guinea","Africa"
-"91",NA,NA,NA,NA,NA,NA,"Guinea-Bissau","Africa"
-"92",NA,NA,NA,NA,NA,NA,"Guyana","Americas"
-"93",NA,NA,NA,NA,NA,NA,"Haiti","Americas"
-"94",NA,NA,NA,NA,NA,NA,"Honduras","Americas"
-"95",23.855,9.326,0,0,0.08,66.72,"Hong Kong","Asia"
-"96",10.705,34.25,15.75,0.233,3.212,35.277,"Hungary","Europe"
-"97",1.969,0,0,59.405,81.019,16.775,"Iceland","Europe"
-"98",57.521,5.982,1.213,4.219,6.295,28.989,"India","Asia"
-"99",30.147,23.191,0,1.762,3.506,43.156,"Indonesia","Asia"
-"100",0.639,64.829,0.316,1.181,1.204,33.011,"Iran","Asia"
-"101",0,15.658,0,1.381,1.412,82.93,"Iraq","Asia"
-"102",14.747,25.303,0,1.18,11.494,47.867,"Ireland","Europe"
-"103",26.458,28.397,0,0.022,1.124,43.98,"Israel","Asia"
-"104",8.106,36.355,0,6.307,16.244,39.295,"Italy","Europe"
-"105",NA,NA,NA,NA,NA,NA,"Ivory Coast",NA
-"106",NA,NA,NA,NA,NA,NA,"Jamaica","Americas"
-"107",26.524,22.532,0.217,4.118,7.395,43.244,"Japan","Asia"
-"108",NA,NA,NA,NA,NA,NA,"Jordan","Asia"
-"109",53.858,20.74,0,3.172,3.233,22.165,"Kazakhstan","Asia"
-"110",NA,NA,NA,NA,NA,NA,"Kenya","Africa"
-"111",NA,NA,NA,NA,NA,NA,"Kiribati","Oceania"
-"112",NA,NA,NA,NA,NA,NA,"Kosovo",NA
-"113",0.466,45.102,0,0,0.003,54.429,"Kuwait","Asia"
-"114",NA,NA,NA,NA,NA,NA,"Kyrgyzstan","Asia"
-"115",NA,NA,NA,NA,NA,NA,"Laos","Asia"
-"116",1.315,31.161,0,11.555,17.223,49.593,"Latvia","Europe"
-"117",NA,NA,NA,NA,NA,NA,"Lebanon","Asia"
-"118",NA,NA,NA,NA,NA,NA,"Lesotho","Africa"
-"119",NA,NA,NA,NA,NA,NA,"Liberia","Africa"
-"120",NA,NA,NA,NA,NA,NA,"Libya","Africa"
-"121",3.347,37.923,0,1.395,6.704,50.778,"Lithuania","Europe"
-"122",1.332,20.841,0,0.585,2.54,73.082,"Luxembourg","Europe"
-"123",NA,NA,NA,NA,NA,NA,"Macau","Asia"
-"124",NA,NA,NA,NA,NA,NA,"Madagascar","Africa"
-"125",NA,NA,NA,NA,NA,NA,"Malawi","Africa"
-"126",18.224,42.197,0,3.173,3.407,35.765,"Malaysia","Asia"
-"127",NA,NA,NA,NA,NA,NA,"Maldives","Asia"
-"128",NA,NA,NA,NA,NA,NA,"Mali","Africa"
-"129",NA,NA,NA,NA,NA,NA,"Malta","Europe"
-"130",NA,NA,NA,NA,NA,NA,"Martinique","Americas"
-"131",NA,NA,NA,NA,NA,NA,"Mauritania","Africa"
-"132",NA,NA,NA,NA,NA,NA,"Mauritius","Africa"
-"133",6.914,37.826,1.371,3.659,5.702,48.187,"Mexico","Americas"
-"134",NA,NA,NA,NA,NA,NA,"Middle Africa",NA
-"135",NA,NA,NA,NA,NA,NA,"Middle East",NA
-"136",NA,NA,NA,NA,NA,NA,"Moldova","Europe"
-"137",NA,NA,NA,NA,NA,NA,"Mongolia","Asia"
-"138",NA,NA,NA,NA,NA,NA,"Montenegro","Europe"
-"139",NA,NA,NA,NA,NA,NA,"Montserrat","Americas"
-"140",23.565,5.15,0,2.174,5.086,66.199,"Morocco","Africa"
-"141",NA,NA,NA,NA,NA,NA,"Mozambique","Africa"
-"142",NA,NA,NA,NA,NA,NA,"Namibia","Africa"
-"143",NA,NA,NA,NA,NA,NA,"Nauru","Oceania"
-"144",NA,NA,NA,NA,NA,NA,"Nepal","Asia"
-"145",13.112,34.888,1.056,0.024,3.936,47.008,"Netherlands","Europe"
-"146",NA,NA,NA,NA,NA,NA,"Netherlands Antilles",NA
-"147",NA,NA,NA,NA,NA,NA,"New Caledonia","Oceania"
-"148",6.75,19.699,0,25.122,36.209,37.33,"New Zealand","Oceania"
-"149",NA,NA,NA,NA,NA,NA,"Nicaragua","Americas"
-"150",NA,NA,NA,NA,NA,NA,"Niger","Africa"
-"151",NA,NA,NA,NA,NA,NA,"Nigeria","Africa"
-"152",NA,NA,NA,NA,NA,NA,"Niue","Oceania"
-"153",14.889,29.542,7.615,5.277,9.532,38.421,"North America",NA
-"154",NA,NA,NA,NA,NA,NA,"North Korea","Asia"
-"155",38.764,4.468,0,16.191,17.611,39.144,"North Macedonia","Europe"
-"156",NA,NA,NA,NA,NA,NA,"Northern Mariana Islands","Oceania"
-"157",1.684,8.571,0,66.017,67.356,22.073,"Norway","Europe"
-"158",NA,NA,NA,NA,NA,NA,"OPEC",NA
-"159",0.171,68.608,0,0,0.003,31.218,"Oman","Asia"
-"160",NA,NA,NA,NA,NA,NA,"Other Asia & Pacific",NA
-"161",NA,NA,NA,NA,NA,NA,"Other CIS",NA
-"162",NA,NA,NA,NA,NA,NA,"Other Caribbean",NA
-"163",NA,NA,NA,NA,NA,NA,"Other Middle East",NA
-"164",NA,NA,NA,NA,NA,NA,"Other Northern Africa",NA
-"165",NA,NA,NA,NA,NA,NA,"Other South America",NA
-"166",NA,NA,NA,NA,NA,NA,"Other Southern Africa",NA
-"167",6.664,45.003,1.379,10.212,10.744,36.21,"Pakistan","Asia"
-"168",NA,NA,NA,NA,NA,NA,"Palestine","Asia"
-"169",NA,NA,NA,NA,NA,NA,"Panama","Americas"
-"170",NA,NA,NA,NA,NA,NA,"Papua New Guinea","Oceania"
-"171",NA,NA,NA,NA,NA,NA,"Paraguay","Americas"
-"172",3.321,26.936,0,21.118,22.662,45.523,"Peru","Americas"
-"173",30.619,7.53,0,4.968,12.019,48.687,"Philippines","Asia"
-"174",51.255,15.483,0,0.42,5.89,27.372,"Poland","Europe"
-"175",13.267,16.866,0,7.667,23.005,46.861,"Portugal","Europe"
-"176",NA,NA,NA,NA,NA,NA,"Puerto Rico","Americas"
-"177",0,74.582,0,0,0.054,25.364,"Qatar","Asia"
-"178",NA,NA,NA,NA,NA,NA,"Reunion",NA
-"179",18.575,27.485,7.804,11.151,17.567,28.073,"Romania","Europe"
-"180",13.706,52.282,6.326,5.437,5.468,22.218,"Russia","Europe"
-"181",NA,NA,NA,NA,NA,NA,"Rwanda","Africa"
-"182",NA,NA,NA,NA,NA,NA,"Saint Helena","Africa"
-"183",NA,NA,NA,NA,NA,NA,"Saint Kitts and Nevis","Americas"
-"184",NA,NA,NA,NA,NA,NA,"Saint Lucia","Americas"
-"185",NA,NA,NA,NA,NA,NA,"Saint Pierre and Miquelon","Americas"
-"186",NA,NA,NA,NA,NA,NA,"Saint Vincent and the Grenadines","Americas"
-"187",NA,NA,NA,NA,NA,NA,"Samoa","Oceania"
-"188",NA,NA,NA,NA,NA,NA,"Sao Tome and Principe","Africa"
-"189",0.051,32.972,0,0,0.011,66.966,"Saudi Arabia","Asia"
-"190",NA,NA,NA,NA,NA,NA,"Senegal","Africa"
-"191",NA,NA,NA,NA,NA,NA,"Serbia","Europe"
-"192",NA,NA,NA,NA,NA,NA,"Seychelles","Africa"
-"193",NA,NA,NA,NA,NA,NA,"Sierra Leone","Africa"
-"194",0.508,12.436,0,0,0.234,86.822,"Singapore","Asia"
-"195",20.898,25.021,21.249,5.706,8.756,23.104,"Slovakia","Europe"
-"196",16.806,10.484,19.392,13.075,14.953,37.892,"Slovenia","Europe"
-"197",NA,NA,NA,NA,NA,NA,"Solomon Islands","Oceania"
-"198",NA,NA,NA,NA,NA,NA,"Somalia","Africa"
-"199",NA,NA,NA,NA,NA,NA,"South & Central America",NA
-"200",69.671,3.081,2.209,0.145,1.27,23.746,"South Africa","Africa"
-"201",30.122,13.845,12.641,0.165,1.163,42.229,"South Korea","Asia"
-"202",NA,NA,NA,NA,NA,NA,"South Sudan","Africa"
-"203",10.21,18.304,9.298,4.566,16.493,45.694,"Spain","Europe"
-"204",17.831,0,0,18.721,20.127,62.041,"Sri Lanka","Asia"
-"205",NA,NA,NA,NA,NA,NA,"Sudan","Africa"
-"206",NA,NA,NA,NA,NA,NA,"Suriname","Americas"
-"207",3.882,1.544,23.582,31.519,44.85,26.141,"Sweden","Europe"
-"208",0.442,10.134,17.975,29.57,31.757,39.512,"Switzerland","Europe"
-"209",NA,NA,NA,NA,NA,NA,"Syria","Asia"
-"210",34.421,15.234,6.965,0.854,1.682,41.697,"Taiwan","Asia"
-"211",NA,NA,NA,NA,NA,NA,"Tajikistan","Asia"
-"212",NA,NA,NA,NA,NA,NA,"Tanzania","Africa"
-"213",14.005,34.973,0,0.653,3.719,47.302,"Thailand","Asia"
-"214",NA,NA,NA,NA,NA,NA,"Timor","Asia"
-"215",NA,NA,NA,NA,NA,NA,"Togo","Africa"
-"216",NA,NA,NA,NA,NA,NA,"Tonga","Oceania"
-"217",0,88.19,0,0,0.006,11.804,"Trinidad and Tobago","Americas"
-"218",NA,NA,NA,NA,NA,NA,"Tunisia","Africa"
-"219",25.414,28.909,0,10.685,13.312,32.289,"Turkey","Asia"
-"220",0,76.276,0,0.002,0.006,23.718,"Turkmenistan","Asia"
-"221",NA,NA,NA,NA,NA,NA,"Turks and Caicos Islands","Americas"
-"222",NA,NA,NA,NA,NA,NA,"Uganda","Africa"
-"223",32.242,32.432,22.475,1.384,1.822,10.988,"Ukraine","Europe"
-"224",1.601,57.431,0,0,0.065,40.904,"United Arab Emirates","Asia"
-"225",11.911,31.978,7.899,0.707,9.853,38.359,"United Kingdom","Europe"
-"226",16.912,29.05,8.293,2.436,7.047,38.698,"United States","Americas"
-"227",NA,NA,NA,NA,NA,NA,"United States Pacific Islands",NA
-"228",NA,NA,NA,NA,NA,NA,"United States Virgin Islands","Americas"
-"229",NA,NA,NA,NA,NA,NA,"Uruguay","Americas"
-"230",3.088,88.269,0,2.901,2.901,5.742,"Uzbekistan","Asia"
-"231",NA,NA,NA,NA,NA,NA,"Vanuatu","Oceania"
-"232",0.173,40.472,0,20.289,20.292,39.063,"Venezuela","Americas"
-"233",37.935,12.789,0,17.981,18.061,31.214,"Vietnam","Asia"
-"234",NA,NA,NA,NA,NA,NA,"Western Africa",NA
-"235",NA,NA,NA,NA,NA,NA,"Western Sahara","Africa"
-"236",29.059,23.051,4.319,6.513,9.842,33.73,"World",NA
-"237",NA,NA,NA,NA,NA,NA,"Yemen","Asia"
-"238",NA,NA,NA,NA,NA,NA,"Zambia","Africa"
-"239",NA,NA,NA,NA,NA,NA,"Zimbabwe","Africa"
+"","country","continent","share energy","consumption"
+"1","Afghanistan","Asia","coal_share_energy",NA
+"2","Afghanistan","Asia","gas_share_energy",NA
+"3","Afghanistan","Asia","nuclear_share_energy",NA
+"4","Afghanistan","Asia","hydro_share_energy",NA
+"5","Afghanistan","Asia","renewables_share_energy",NA
+"6","Afghanistan","Asia","oil_share_energy",NA
+"7","Africa",NA,"coal_share_energy",22.485
+"8","Africa",NA,"gas_share_energy",25.823
+"9","Africa",NA,"nuclear_share_energy",0.622
+"10","Africa",NA,"hydro_share_energy",6.095
+"11","Africa",NA,"renewables_share_energy",7.1
+"12","Africa",NA,"oil_share_energy",43.97
+"13","Albania","Europe","coal_share_energy",NA
+"14","Albania","Europe","gas_share_energy",NA
+"15","Albania","Europe","nuclear_share_energy",NA
+"16","Albania","Europe","hydro_share_energy",NA
+"17","Albania","Europe","renewables_share_energy",NA
+"18","Albania","Europe","oil_share_energy",NA
+"19","Algeria","Africa","coal_share_energy",0.25
+"20","Algeria","Africa","gas_share_energy",61.415
+"21","Algeria","Africa","nuclear_share_energy",0
+"22","Algeria","Africa","hydro_share_energy",0.059
+"23","Algeria","Africa","renewables_share_energy",0.091
+"24","Algeria","Africa","oil_share_energy",38.244
+"25","American Samoa","Oceania","coal_share_energy",NA
+"26","American Samoa","Oceania","gas_share_energy",NA
+"27","American Samoa","Oceania","nuclear_share_energy",NA
+"28","American Samoa","Oceania","hydro_share_energy",NA
+"29","American Samoa","Oceania","renewables_share_energy",NA
+"30","American Samoa","Oceania","oil_share_energy",NA
+"31","Angola","Africa","coal_share_energy",NA
+"32","Angola","Africa","gas_share_energy",NA
+"33","Angola","Africa","nuclear_share_energy",NA
+"34","Angola","Africa","hydro_share_energy",NA
+"35","Angola","Africa","renewables_share_energy",NA
+"36","Angola","Africa","oil_share_energy",NA
+"37","Antigua and Barbuda","Americas","coal_share_energy",NA
+"38","Antigua and Barbuda","Americas","gas_share_energy",NA
+"39","Antigua and Barbuda","Americas","nuclear_share_energy",NA
+"40","Antigua and Barbuda","Americas","hydro_share_energy",NA
+"41","Antigua and Barbuda","Americas","renewables_share_energy",NA
+"42","Antigua and Barbuda","Americas","oil_share_energy",NA
+"43","Argentina","Americas","coal_share_energy",1.588
+"44","Argentina","Americas","gas_share_energy",46.837
+"45","Argentina","Americas","nuclear_share_energy",1.788
+"46","Argentina","Americas","hydro_share_energy",10.609
+"47","Argentina","Americas","renewables_share_energy",12.913
+"48","Argentina","Americas","oil_share_energy",36.874
+"49","Armenia","Asia","coal_share_energy",NA
+"50","Armenia","Asia","gas_share_energy",NA
+"51","Armenia","Asia","nuclear_share_energy",NA
+"52","Armenia","Asia","hydro_share_energy",NA
+"53","Armenia","Asia","renewables_share_energy",NA
+"54","Armenia","Asia","oil_share_energy",NA
+"55","Aruba","Americas","coal_share_energy",NA
+"56","Aruba","Americas","gas_share_energy",NA
+"57","Aruba","Americas","nuclear_share_energy",NA
+"58","Aruba","Americas","hydro_share_energy",NA
+"59","Aruba","Americas","renewables_share_energy",NA
+"60","Aruba","Americas","oil_share_energy",NA
+"61","Asia Pacific",NA,"coal_share_energy",NA
+"62","Asia Pacific",NA,"gas_share_energy",NA
+"63","Asia Pacific",NA,"nuclear_share_energy",NA
+"64","Asia Pacific",NA,"hydro_share_energy",NA
+"65","Asia Pacific",NA,"renewables_share_energy",NA
+"66","Asia Pacific",NA,"oil_share_energy",NA
+"67","Australia","Oceania","coal_share_energy",33.326
+"68","Australia","Oceania","gas_share_energy",25.97
+"69","Australia","Oceania","nuclear_share_energy",0
+"70","Australia","Oceania","hydro_share_energy",2.198
+"71","Australia","Oceania","renewables_share_energy",6.504
+"72","Australia","Oceania","oil_share_energy",34.2
+"73","Austria","Europe","coal_share_energy",9.794
+"74","Austria","Europe","gas_share_energy",20.692
+"75","Austria","Europe","nuclear_share_energy",0
+"76","Austria","Europe","hydro_share_energy",24.343
+"77","Austria","Europe","renewables_share_energy",33.107
+"78","Austria","Europe","oil_share_energy",36.408
+"79","Azerbaijan","Asia","coal_share_energy",0.021
+"80","Azerbaijan","Asia","gas_share_energy",65.185
+"81","Azerbaijan","Asia","nuclear_share_energy",0
+"82","Azerbaijan","Asia","hydro_share_energy",2.423
+"83","Azerbaijan","Asia","renewables_share_energy",2.571
+"84","Azerbaijan","Asia","oil_share_energy",32.224
+"85","Bahamas","Americas","coal_share_energy",NA
+"86","Bahamas","Americas","gas_share_energy",NA
+"87","Bahamas","Americas","nuclear_share_energy",NA
+"88","Bahamas","Americas","hydro_share_energy",NA
+"89","Bahamas","Americas","renewables_share_energy",NA
+"90","Bahamas","Americas","oil_share_energy",NA
+"91","Bahrain","Asia","coal_share_energy",NA
+"92","Bahrain","Asia","gas_share_energy",NA
+"93","Bahrain","Asia","nuclear_share_energy",NA
+"94","Bahrain","Asia","hydro_share_energy",NA
+"95","Bahrain","Asia","renewables_share_energy",NA
+"96","Bahrain","Asia","oil_share_energy",NA
+"97","Bangladesh","Asia","coal_share_energy",8.429
+"98","Bangladesh","Asia","gas_share_energy",70.249
+"99","Bangladesh","Asia","nuclear_share_energy",0
+"100","Bangladesh","Asia","hydro_share_energy",0.617
+"101","Bangladesh","Asia","renewables_share_energy",0.762
+"102","Bangladesh","Asia","oil_share_energy",20.559
+"103","Barbados","Americas","coal_share_energy",NA
+"104","Barbados","Americas","gas_share_energy",NA
+"105","Barbados","Americas","nuclear_share_energy",NA
+"106","Barbados","Americas","hydro_share_energy",NA
+"107","Barbados","Americas","renewables_share_energy",NA
+"108","Barbados","Americas","oil_share_energy",NA
+"109","Belarus","Europe","coal_share_energy",3.202
+"110","Belarus","Europe","gas_share_energy",66.539
+"111","Belarus","Europe","nuclear_share_energy",0
+"112","Belarus","Europe","hydro_share_energy",0.104
+"113","Belarus","Europe","renewables_share_energy",0.238
+"114","Belarus","Europe","oil_share_energy",29.938
+"115","Belgium","Europe","coal_share_energy",5.798
+"116","Belgium","Europe","gas_share_energy",23.394
+"117","Belgium","Europe","nuclear_share_energy",9.747
+"118","Belgium","Europe","hydro_share_energy",0.119
+"119","Belgium","Europe","renewables_share_energy",5.865
+"120","Belgium","Europe","oil_share_energy",55.196
+"121","Belize","Americas","coal_share_energy",NA
+"122","Belize","Americas","gas_share_energy",NA
+"123","Belize","Americas","nuclear_share_energy",NA
+"124","Belize","Americas","hydro_share_energy",NA
+"125","Belize","Americas","renewables_share_energy",NA
+"126","Belize","Americas","oil_share_energy",NA
+"127","Benin","Africa","coal_share_energy",NA
+"128","Benin","Africa","gas_share_energy",NA
+"129","Benin","Africa","nuclear_share_energy",NA
+"130","Benin","Africa","hydro_share_energy",NA
+"131","Benin","Africa","renewables_share_energy",NA
+"132","Benin","Africa","oil_share_energy",NA
+"133","Bermuda","Americas","coal_share_energy",NA
+"134","Bermuda","Americas","gas_share_energy",NA
+"135","Bermuda","Americas","nuclear_share_energy",NA
+"136","Bermuda","Americas","hydro_share_energy",NA
+"137","Bermuda","Americas","renewables_share_energy",NA
+"138","Bermuda","Americas","oil_share_energy",NA
+"139","Bhutan","Asia","coal_share_energy",NA
+"140","Bhutan","Asia","gas_share_energy",NA
+"141","Bhutan","Asia","nuclear_share_energy",NA
+"142","Bhutan","Asia","hydro_share_energy",NA
+"143","Bhutan","Asia","renewables_share_energy",NA
+"144","Bhutan","Asia","oil_share_energy",NA
+"145","Bolivia","Americas","coal_share_energy",NA
+"146","Bolivia","Americas","gas_share_energy",NA
+"147","Bolivia","Americas","nuclear_share_energy",NA
+"148","Bolivia","Americas","hydro_share_energy",NA
+"149","Bolivia","Americas","renewables_share_energy",NA
+"150","Bolivia","Americas","oil_share_energy",NA
+"151","Bosnia and Herzegovina","Europe","coal_share_energy",NA
+"152","Bosnia and Herzegovina","Europe","gas_share_energy",NA
+"153","Bosnia and Herzegovina","Europe","nuclear_share_energy",NA
+"154","Bosnia and Herzegovina","Europe","hydro_share_energy",NA
+"155","Bosnia and Herzegovina","Europe","renewables_share_energy",NA
+"156","Bosnia and Herzegovina","Europe","oil_share_energy",NA
+"157","Botswana","Africa","coal_share_energy",NA
+"158","Botswana","Africa","gas_share_energy",NA
+"159","Botswana","Africa","nuclear_share_energy",NA
+"160","Botswana","Africa","hydro_share_energy",NA
+"161","Botswana","Africa","renewables_share_energy",NA
+"162","Botswana","Africa","oil_share_energy",NA
+"163","Brazil","Americas","coal_share_energy",6.032
+"164","Brazil","Americas","gas_share_energy",12.635
+"165","Brazil","Americas","nuclear_share_energy",1.097
+"166","Brazil","Americas","hydro_share_energy",26.781
+"167","Brazil","Americas","renewables_share_energy",38.632
+"168","Brazil","Americas","oil_share_energy",41.604
+"169","British Virgin Islands","Americas","coal_share_energy",NA
+"170","British Virgin Islands","Americas","gas_share_energy",NA
+"171","British Virgin Islands","Americas","nuclear_share_energy",NA
+"172","British Virgin Islands","Americas","hydro_share_energy",NA
+"173","British Virgin Islands","Americas","renewables_share_energy",NA
+"174","British Virgin Islands","Americas","oil_share_energy",NA
+"175","Brunei","Asia","coal_share_energy",NA
+"176","Brunei","Asia","gas_share_energy",NA
+"177","Brunei","Asia","nuclear_share_energy",NA
+"178","Brunei","Asia","hydro_share_energy",NA
+"179","Brunei","Asia","renewables_share_energy",NA
+"180","Brunei","Asia","oil_share_energy",NA
+"181","Bulgaria","Europe","coal_share_energy",34.298
+"182","Bulgaria","Europe","gas_share_energy",13.498
+"183","Bulgaria","Europe","nuclear_share_energy",17.503
+"184","Bulgaria","Europe","hydro_share_energy",6.443
+"185","Bulgaria","Europe","renewables_share_energy",9.977
+"186","Bulgaria","Europe","oil_share_energy",23.965
+"187","Burkina Faso","Africa","coal_share_energy",NA
+"188","Burkina Faso","Africa","gas_share_energy",NA
+"189","Burkina Faso","Africa","nuclear_share_energy",NA
+"190","Burkina Faso","Africa","hydro_share_energy",NA
+"191","Burkina Faso","Africa","renewables_share_energy",NA
+"192","Burkina Faso","Africa","oil_share_energy",NA
+"193","Burma",NA,"coal_share_energy",NA
+"194","Burma",NA,"gas_share_energy",NA
+"195","Burma",NA,"nuclear_share_energy",NA
+"196","Burma",NA,"hydro_share_energy",NA
+"197","Burma",NA,"renewables_share_energy",NA
+"198","Burma",NA,"oil_share_energy",NA
+"199","Burundi","Africa","coal_share_energy",NA
+"200","Burundi","Africa","gas_share_energy",NA
+"201","Burundi","Africa","nuclear_share_energy",NA
+"202","Burundi","Africa","hydro_share_energy",NA
+"203","Burundi","Africa","renewables_share_energy",NA
+"204","Burundi","Africa","oil_share_energy",NA
+"205","CIS",NA,"coal_share_energy",NA
+"206","CIS",NA,"gas_share_energy",NA
+"207","CIS",NA,"nuclear_share_energy",NA
+"208","CIS",NA,"hydro_share_energy",NA
+"209","CIS",NA,"renewables_share_energy",NA
+"210","CIS",NA,"oil_share_energy",NA
+"211","Cambodia","Asia","coal_share_energy",NA
+"212","Cambodia","Asia","gas_share_energy",NA
+"213","Cambodia","Asia","nuclear_share_energy",NA
+"214","Cambodia","Asia","hydro_share_energy",NA
+"215","Cambodia","Asia","renewables_share_energy",NA
+"216","Cambodia","Asia","oil_share_energy",NA
+"217","Cameroon","Africa","coal_share_energy",NA
+"218","Cameroon","Africa","gas_share_energy",NA
+"219","Cameroon","Africa","nuclear_share_energy",NA
+"220","Cameroon","Africa","hydro_share_energy",NA
+"221","Cameroon","Africa","renewables_share_energy",NA
+"222","Cameroon","Africa","oil_share_energy",NA
+"223","Canada","Americas","coal_share_energy",5.95
+"224","Canada","Americas","gas_share_energy",28.235
+"225","Canada","Americas","nuclear_share_energy",6.58
+"226","Canada","Americas","hydro_share_energy",24.873
+"227","Canada","Americas","renewables_share_energy",28.001
+"228","Canada","Americas","oil_share_energy",31.234
+"229","Cape Verde","Africa","coal_share_energy",NA
+"230","Cape Verde","Africa","gas_share_energy",NA
+"231","Cape Verde","Africa","nuclear_share_energy",NA
+"232","Cape Verde","Africa","hydro_share_energy",NA
+"233","Cape Verde","Africa","renewables_share_energy",NA
+"234","Cape Verde","Africa","oil_share_energy",NA
+"235","Cayman Islands","Americas","coal_share_energy",NA
+"236","Cayman Islands","Americas","gas_share_energy",NA
+"237","Cayman Islands","Americas","nuclear_share_energy",NA
+"238","Cayman Islands","Americas","hydro_share_energy",NA
+"239","Cayman Islands","Americas","renewables_share_energy",NA
+"240","Cayman Islands","Americas","oil_share_energy",NA
+"241","Central African Republic","Africa","coal_share_energy",NA
+"242","Central African Republic","Africa","gas_share_energy",NA
+"243","Central African Republic","Africa","nuclear_share_energy",NA
+"244","Central African Republic","Africa","hydro_share_energy",NA
+"245","Central African Republic","Africa","renewables_share_energy",NA
+"246","Central African Republic","Africa","oil_share_energy",NA
+"247","Central America",NA,"coal_share_energy",NA
+"248","Central America",NA,"gas_share_energy",NA
+"249","Central America",NA,"nuclear_share_energy",NA
+"250","Central America",NA,"hydro_share_energy",NA
+"251","Central America",NA,"renewables_share_energy",NA
+"252","Central America",NA,"oil_share_energy",NA
+"253","Chad","Africa","coal_share_energy",NA
+"254","Chad","Africa","gas_share_energy",NA
+"255","Chad","Africa","nuclear_share_energy",NA
+"256","Chad","Africa","hydro_share_energy",NA
+"257","Chad","Africa","renewables_share_energy",NA
+"258","Chad","Africa","oil_share_energy",NA
+"259","Chile","Americas","coal_share_energy",20.478
+"260","Chile","Americas","gas_share_energy",11.615
+"261","Chile","Americas","nuclear_share_energy",0
+"262","Chile","Americas","hydro_share_energy",14.387
+"263","Chile","Americas","renewables_share_energy",19.894
+"264","Chile","Americas","oil_share_energy",48.014
+"265","China","Asia","coal_share_energy",63.914
+"266","China","Asia","gas_share_energy",5.59
+"267","China","Asia","nuclear_share_energy",1.245
+"268","China","Asia","hydro_share_energy",8.096
+"269","China","Asia","renewables_share_energy",10.188
+"270","China","Asia","oil_share_energy",19.063
+"271","Colombia","Americas","coal_share_energy",12.15
+"272","Colombia","Americas","gas_share_energy",23.576
+"273","Colombia","Americas","nuclear_share_energy",0
+"274","Colombia","Americas","hydro_share_energy",23.768
+"275","Colombia","Americas","renewables_share_energy",24.863
+"276","Colombia","Americas","oil_share_energy",39.412
+"277","Comoros","Africa","coal_share_energy",NA
+"278","Comoros","Africa","gas_share_energy",NA
+"279","Comoros","Africa","nuclear_share_energy",NA
+"280","Comoros","Africa","hydro_share_energy",NA
+"281","Comoros","Africa","renewables_share_energy",NA
+"282","Comoros","Africa","oil_share_energy",NA
+"283","Congo","Africa","coal_share_energy",NA
+"284","Congo","Africa","gas_share_energy",NA
+"285","Congo","Africa","nuclear_share_energy",NA
+"286","Congo","Africa","hydro_share_energy",NA
+"287","Congo","Africa","renewables_share_energy",NA
+"288","Congo","Africa","oil_share_energy",NA
+"289","Cook Islands","Oceania","coal_share_energy",NA
+"290","Cook Islands","Oceania","gas_share_energy",NA
+"291","Cook Islands","Oceania","nuclear_share_energy",NA
+"292","Cook Islands","Oceania","hydro_share_energy",NA
+"293","Cook Islands","Oceania","renewables_share_energy",NA
+"294","Cook Islands","Oceania","oil_share_energy",NA
+"295","Costa Rica","Americas","coal_share_energy",NA
+"296","Costa Rica","Americas","gas_share_energy",NA
+"297","Costa Rica","Americas","nuclear_share_energy",NA
+"298","Costa Rica","Americas","hydro_share_energy",NA
+"299","Costa Rica","Americas","renewables_share_energy",NA
+"300","Costa Rica","Americas","oil_share_energy",NA
+"301","Croatia","Europe","coal_share_energy",7.857
+"302","Croatia","Europe","gas_share_energy",27.004
+"303","Croatia","Europe","nuclear_share_energy",0
+"304","Croatia","Europe","hydro_share_energy",18.032
+"305","Croatia","Europe","renewables_share_energy",21.189
+"306","Croatia","Europe","oil_share_energy",43.638
+"307","Cuba","Americas","coal_share_energy",NA
+"308","Cuba","Americas","gas_share_energy",NA
+"309","Cuba","Americas","nuclear_share_energy",NA
+"310","Cuba","Americas","hydro_share_energy",NA
+"311","Cuba","Americas","renewables_share_energy",NA
+"312","Cuba","Americas","oil_share_energy",NA
+"313","Cyprus","Asia","coal_share_energy",0.133
+"314","Cyprus","Asia","gas_share_energy",0
+"315","Cyprus","Asia","nuclear_share_energy",0
+"316","Cyprus","Asia","hydro_share_energy",0
+"317","Cyprus","Asia","renewables_share_energy",3.476
+"318","Cyprus","Asia","oil_share_energy",96.003
+"319","Czechia","Europe","coal_share_energy",40.644
+"320","Czechia","Europe","gas_share_energy",16.14
+"321","Czechia","Europe","nuclear_share_energy",14.536
+"322","Czechia","Europe","hydro_share_energy",0.972
+"323","Czechia","Europe","renewables_share_energy",5.103
+"324","Czechia","Europe","oil_share_energy",22.832
+"325","Democratic Republic of Congo","Africa","coal_share_energy",NA
+"326","Democratic Republic of Congo","Africa","gas_share_energy",NA
+"327","Democratic Republic of Congo","Africa","nuclear_share_energy",NA
+"328","Democratic Republic of Congo","Africa","hydro_share_energy",NA
+"329","Democratic Republic of Congo","Africa","renewables_share_energy",NA
+"330","Democratic Republic of Congo","Africa","oil_share_energy",NA
+"331","Denmark","Europe","coal_share_energy",10.352
+"332","Denmark","Europe","gas_share_energy",17.042
+"333","Denmark","Europe","nuclear_share_energy",0
+"334","Denmark","Europe","hydro_share_energy",0.023
+"335","Denmark","Europe","renewables_share_energy",24.696
+"336","Denmark","Europe","oil_share_energy",46.572
+"337","Djibouti","Africa","coal_share_energy",NA
+"338","Djibouti","Africa","gas_share_energy",NA
+"339","Djibouti","Africa","nuclear_share_energy",NA
+"340","Djibouti","Africa","hydro_share_energy",NA
+"341","Djibouti","Africa","renewables_share_energy",NA
+"342","Djibouti","Africa","oil_share_energy",NA
+"343","Dominica","Americas","coal_share_energy",NA
+"344","Dominica","Americas","gas_share_energy",NA
+"345","Dominica","Americas","nuclear_share_energy",NA
+"346","Dominica","Americas","hydro_share_energy",NA
+"347","Dominica","Americas","renewables_share_energy",NA
+"348","Dominica","Americas","oil_share_energy",NA
+"349","Dominican Republic","Americas","coal_share_energy",NA
+"350","Dominican Republic","Americas","gas_share_energy",NA
+"351","Dominican Republic","Americas","nuclear_share_energy",NA
+"352","Dominican Republic","Americas","hydro_share_energy",NA
+"353","Dominican Republic","Americas","renewables_share_energy",NA
+"354","Dominican Republic","Americas","oil_share_energy",NA
+"355","Eastern Africa",NA,"coal_share_energy",NA
+"356","Eastern Africa",NA,"gas_share_energy",NA
+"357","Eastern Africa",NA,"nuclear_share_energy",NA
+"358","Eastern Africa",NA,"hydro_share_energy",NA
+"359","Eastern Africa",NA,"renewables_share_energy",NA
+"360","Eastern Africa",NA,"oil_share_energy",NA
+"361","Ecuador","Americas","coal_share_energy",0
+"362","Ecuador","Americas","gas_share_energy",4.428
+"363","Ecuador","Americas","nuclear_share_energy",0
+"364","Ecuador","Americas","hydro_share_energy",17.866
+"365","Ecuador","Americas","renewables_share_energy",18.607
+"366","Ecuador","Americas","oil_share_energy",76.874
+"367","Egypt","Africa","coal_share_energy",0.967
+"368","Egypt","Africa","gas_share_energy",46.634
+"369","Egypt","Africa","nuclear_share_energy",0
+"370","Egypt","Africa","hydro_share_energy",3.508
+"371","Egypt","Africa","renewables_share_energy",4.004
+"372","Egypt","Africa","oil_share_energy",48.394
+"373","El Salvador","Americas","coal_share_energy",NA
+"374","El Salvador","Americas","gas_share_energy",NA
+"375","El Salvador","Americas","nuclear_share_energy",NA
+"376","El Salvador","Americas","hydro_share_energy",NA
+"377","El Salvador","Americas","renewables_share_energy",NA
+"378","El Salvador","Americas","oil_share_energy",NA
+"379","Equatorial Guinea","Africa","coal_share_energy",NA
+"380","Equatorial Guinea","Africa","gas_share_energy",NA
+"381","Equatorial Guinea","Africa","nuclear_share_energy",NA
+"382","Equatorial Guinea","Africa","hydro_share_energy",NA
+"383","Equatorial Guinea","Africa","renewables_share_energy",NA
+"384","Equatorial Guinea","Africa","oil_share_energy",NA
+"385","Eritrea","Africa","coal_share_energy",NA
+"386","Eritrea","Africa","gas_share_energy",NA
+"387","Eritrea","Africa","nuclear_share_energy",NA
+"388","Eritrea","Africa","hydro_share_energy",NA
+"389","Eritrea","Africa","renewables_share_energy",NA
+"390","Eritrea","Africa","oil_share_energy",NA
+"391","Estonia","Europe","coal_share_energy",63.431
+"392","Estonia","Europe","gas_share_energy",6.275
+"393","Estonia","Europe","nuclear_share_energy",0
+"394","Estonia","Europe","hydro_share_energy",0.097
+"395","Estonia","Europe","renewables_share_energy",5.512
+"396","Estonia","Europe","oil_share_energy",24.678
+"397","Eswatini","Africa","coal_share_energy",NA
+"398","Eswatini","Africa","gas_share_energy",NA
+"399","Eswatini","Africa","nuclear_share_energy",NA
+"400","Eswatini","Africa","hydro_share_energy",NA
+"401","Eswatini","Africa","renewables_share_energy",NA
+"402","Eswatini","Africa","oil_share_energy",NA
+"403","Ethiopia","Africa","coal_share_energy",NA
+"404","Ethiopia","Africa","gas_share_energy",NA
+"405","Ethiopia","Africa","nuclear_share_energy",NA
+"406","Ethiopia","Africa","hydro_share_energy",NA
+"407","Ethiopia","Africa","renewables_share_energy",NA
+"408","Ethiopia","Africa","oil_share_energy",NA
+"409","Europe",NA,"coal_share_energy",17.155
+"410","Europe",NA,"gas_share_energy",22.145
+"411","Europe",NA,"nuclear_share_energy",10.653
+"412","Europe",NA,"hydro_share_energy",6.997
+"413","Europe",NA,"renewables_share_energy",14.612
+"414","Europe",NA,"oil_share_energy",35.434
+"415","Europe (other)",NA,"coal_share_energy",NA
+"416","Europe (other)",NA,"gas_share_energy",NA
+"417","Europe (other)",NA,"nuclear_share_energy",NA
+"418","Europe (other)",NA,"hydro_share_energy",NA
+"419","Europe (other)",NA,"renewables_share_energy",NA
+"420","Europe (other)",NA,"oil_share_energy",NA
+"421","Faeroe Islands","Europe","coal_share_energy",NA
+"422","Faeroe Islands","Europe","gas_share_energy",NA
+"423","Faeroe Islands","Europe","nuclear_share_energy",NA
+"424","Faeroe Islands","Europe","hydro_share_energy",NA
+"425","Faeroe Islands","Europe","renewables_share_energy",NA
+"426","Faeroe Islands","Europe","oil_share_energy",NA
+"427","Falkland Islands ",NA,"coal_share_energy",NA
+"428","Falkland Islands ",NA,"gas_share_energy",NA
+"429","Falkland Islands ",NA,"nuclear_share_energy",NA
+"430","Falkland Islands ",NA,"hydro_share_energy",NA
+"431","Falkland Islands ",NA,"renewables_share_energy",NA
+"432","Falkland Islands ",NA,"oil_share_energy",NA
+"433","Fiji","Oceania","coal_share_energy",NA
+"434","Fiji","Oceania","gas_share_energy",NA
+"435","Fiji","Oceania","nuclear_share_energy",NA
+"436","Fiji","Oceania","hydro_share_energy",NA
+"437","Fiji","Oceania","renewables_share_energy",NA
+"438","Fiji","Oceania","oil_share_energy",NA
+"439","Finland","Europe","coal_share_energy",13.879
+"440","Finland","Europe","gas_share_energy",7.151
+"441","Finland","Europe","nuclear_share_energy",18.581
+"442","Finland","Europe","hydro_share_energy",13.245
+"443","Finland","Europe","renewables_share_energy",25.632
+"444","Finland","Europe","oil_share_energy",34.757
+"445","France","Europe","coal_share_energy",3.537
+"446","France","Europe","gas_share_energy",14.784
+"447","France","Europe","nuclear_share_energy",40.145
+"448","France","Europe","hydro_share_energy",4.997
+"449","France","Europe","renewables_share_energy",9.403
+"450","France","Europe","oil_share_energy",32.131
+"451","French Guiana","Americas","coal_share_energy",NA
+"452","French Guiana","Americas","gas_share_energy",NA
+"453","French Guiana","Americas","nuclear_share_energy",NA
+"454","French Guiana","Americas","hydro_share_energy",NA
+"455","French Guiana","Americas","renewables_share_energy",NA
+"456","French Guiana","Americas","oil_share_energy",NA
+"457","French Polynesia","Oceania","coal_share_energy",NA
+"458","French Polynesia","Oceania","gas_share_energy",NA
+"459","French Polynesia","Oceania","nuclear_share_energy",NA
+"460","French Polynesia","Oceania","hydro_share_energy",NA
+"461","French Polynesia","Oceania","renewables_share_energy",NA
+"462","French Polynesia","Oceania","oil_share_energy",NA
+"463","Gabon","Africa","coal_share_energy",NA
+"464","Gabon","Africa","gas_share_energy",NA
+"465","Gabon","Africa","nuclear_share_energy",NA
+"466","Gabon","Africa","hydro_share_energy",NA
+"467","Gabon","Africa","renewables_share_energy",NA
+"468","Gabon","Africa","oil_share_energy",NA
+"469","Gambia","Africa","coal_share_energy",NA
+"470","Gambia","Africa","gas_share_energy",NA
+"471","Gambia","Africa","nuclear_share_energy",NA
+"472","Gambia","Africa","hydro_share_energy",NA
+"473","Gambia","Africa","renewables_share_energy",NA
+"474","Gambia","Africa","oil_share_energy",NA
+"475","Georgia","Asia","coal_share_energy",NA
+"476","Georgia","Asia","gas_share_energy",NA
+"477","Georgia","Asia","nuclear_share_energy",NA
+"478","Georgia","Asia","hydro_share_energy",NA
+"479","Georgia","Asia","renewables_share_energy",NA
+"480","Georgia","Asia","oil_share_energy",NA
+"481","Germany","Europe","coal_share_energy",24.584
+"482","Germany","Europe","gas_share_energy",20.674
+"483","Germany","Europe","nuclear_share_energy",6.238
+"484","Germany","Europe","hydro_share_energy",1.29
+"485","Germany","Europe","renewables_share_energy",13.671
+"486","Germany","Europe","oil_share_energy",34.833
+"487","Ghana","Africa","coal_share_energy",NA
+"488","Ghana","Africa","gas_share_energy",NA
+"489","Ghana","Africa","nuclear_share_energy",NA
+"490","Ghana","Africa","hydro_share_energy",NA
+"491","Ghana","Africa","renewables_share_energy",NA
+"492","Ghana","Africa","oil_share_energy",NA
+"493","Gibraltar","Europe","coal_share_energy",NA
+"494","Gibraltar","Europe","gas_share_energy",NA
+"495","Gibraltar","Europe","nuclear_share_energy",NA
+"496","Gibraltar","Europe","hydro_share_energy",NA
+"497","Gibraltar","Europe","renewables_share_energy",NA
+"498","Gibraltar","Europe","oil_share_energy",NA
+"499","Greece","Europe","coal_share_energy",20.917
+"500","Greece","Europe","gas_share_energy",9.817
+"501","Greece","Europe","nuclear_share_energy",0
+"502","Greece","Europe","hydro_share_energy",4.931
+"503","Greece","Europe","renewables_share_energy",12.008
+"504","Greece","Europe","oil_share_energy",56.666
+"505","Greenland","Americas","coal_share_energy",NA
+"506","Greenland","Americas","gas_share_energy",NA
+"507","Greenland","Americas","nuclear_share_energy",NA
+"508","Greenland","Americas","hydro_share_energy",NA
+"509","Greenland","Americas","renewables_share_energy",NA
+"510","Greenland","Americas","oil_share_energy",NA
+"511","Grenada","Americas","coal_share_energy",NA
+"512","Grenada","Americas","gas_share_energy",NA
+"513","Grenada","Americas","nuclear_share_energy",NA
+"514","Grenada","Americas","hydro_share_energy",NA
+"515","Grenada","Americas","renewables_share_energy",NA
+"516","Grenada","Americas","oil_share_energy",NA
+"517","Guadeloupe","Americas","coal_share_energy",NA
+"518","Guadeloupe","Americas","gas_share_energy",NA
+"519","Guadeloupe","Americas","nuclear_share_energy",NA
+"520","Guadeloupe","Americas","hydro_share_energy",NA
+"521","Guadeloupe","Americas","renewables_share_energy",NA
+"522","Guadeloupe","Americas","oil_share_energy",NA
+"523","Guam","Oceania","coal_share_energy",NA
+"524","Guam","Oceania","gas_share_energy",NA
+"525","Guam","Oceania","nuclear_share_energy",NA
+"526","Guam","Oceania","hydro_share_energy",NA
+"527","Guam","Oceania","renewables_share_energy",NA
+"528","Guam","Oceania","oil_share_energy",NA
+"529","Guatemala","Americas","coal_share_energy",NA
+"530","Guatemala","Americas","gas_share_energy",NA
+"531","Guatemala","Americas","nuclear_share_energy",NA
+"532","Guatemala","Americas","hydro_share_energy",NA
+"533","Guatemala","Americas","renewables_share_energy",NA
+"534","Guatemala","Americas","oil_share_energy",NA
+"535","Guinea","Africa","coal_share_energy",NA
+"536","Guinea","Africa","gas_share_energy",NA
+"537","Guinea","Africa","nuclear_share_energy",NA
+"538","Guinea","Africa","hydro_share_energy",NA
+"539","Guinea","Africa","renewables_share_energy",NA
+"540","Guinea","Africa","oil_share_energy",NA
+"541","Guinea-Bissau","Africa","coal_share_energy",NA
+"542","Guinea-Bissau","Africa","gas_share_energy",NA
+"543","Guinea-Bissau","Africa","nuclear_share_energy",NA
+"544","Guinea-Bissau","Africa","hydro_share_energy",NA
+"545","Guinea-Bissau","Africa","renewables_share_energy",NA
+"546","Guinea-Bissau","Africa","oil_share_energy",NA
+"547","Guyana","Americas","coal_share_energy",NA
+"548","Guyana","Americas","gas_share_energy",NA
+"549","Guyana","Americas","nuclear_share_energy",NA
+"550","Guyana","Americas","hydro_share_energy",NA
+"551","Guyana","Americas","renewables_share_energy",NA
+"552","Guyana","Americas","oil_share_energy",NA
+"553","Haiti","Americas","coal_share_energy",NA
+"554","Haiti","Americas","gas_share_energy",NA
+"555","Haiti","Americas","nuclear_share_energy",NA
+"556","Haiti","Americas","hydro_share_energy",NA
+"557","Haiti","Americas","renewables_share_energy",NA
+"558","Haiti","Americas","oil_share_energy",NA
+"559","Honduras","Americas","coal_share_energy",NA
+"560","Honduras","Americas","gas_share_energy",NA
+"561","Honduras","Americas","nuclear_share_energy",NA
+"562","Honduras","Americas","hydro_share_energy",NA
+"563","Honduras","Americas","renewables_share_energy",NA
+"564","Honduras","Americas","oil_share_energy",NA
+"565","Hong Kong","Asia","coal_share_energy",23.855
+"566","Hong Kong","Asia","gas_share_energy",9.326
+"567","Hong Kong","Asia","nuclear_share_energy",0
+"568","Hong Kong","Asia","hydro_share_energy",0
+"569","Hong Kong","Asia","renewables_share_energy",0.08
+"570","Hong Kong","Asia","oil_share_energy",66.72
+"571","Hungary","Europe","coal_share_energy",10.705
+"572","Hungary","Europe","gas_share_energy",34.25
+"573","Hungary","Europe","nuclear_share_energy",15.75
+"574","Hungary","Europe","hydro_share_energy",0.233
+"575","Hungary","Europe","renewables_share_energy",3.212
+"576","Hungary","Europe","oil_share_energy",35.277
+"577","Iceland","Europe","coal_share_energy",1.969
+"578","Iceland","Europe","gas_share_energy",0
+"579","Iceland","Europe","nuclear_share_energy",0
+"580","Iceland","Europe","hydro_share_energy",59.405
+"581","Iceland","Europe","renewables_share_energy",81.019
+"582","Iceland","Europe","oil_share_energy",16.775
+"583","India","Asia","coal_share_energy",57.521
+"584","India","Asia","gas_share_energy",5.982
+"585","India","Asia","nuclear_share_energy",1.213
+"586","India","Asia","hydro_share_energy",4.219
+"587","India","Asia","renewables_share_energy",6.295
+"588","India","Asia","oil_share_energy",28.989
+"589","Indonesia","Asia","coal_share_energy",30.147
+"590","Indonesia","Asia","gas_share_energy",23.191
+"591","Indonesia","Asia","nuclear_share_energy",0
+"592","Indonesia","Asia","hydro_share_energy",1.762
+"593","Indonesia","Asia","renewables_share_energy",3.506
+"594","Indonesia","Asia","oil_share_energy",43.156
+"595","Iran","Asia","coal_share_energy",0.639
+"596","Iran","Asia","gas_share_energy",64.829
+"597","Iran","Asia","nuclear_share_energy",0.316
+"598","Iran","Asia","hydro_share_energy",1.181
+"599","Iran","Asia","renewables_share_energy",1.204
+"600","Iran","Asia","oil_share_energy",33.011
+"601","Iraq","Asia","coal_share_energy",0
+"602","Iraq","Asia","gas_share_energy",15.658
+"603","Iraq","Asia","nuclear_share_energy",0
+"604","Iraq","Asia","hydro_share_energy",1.381
+"605","Iraq","Asia","renewables_share_energy",1.412
+"606","Iraq","Asia","oil_share_energy",82.93
+"607","Ireland","Europe","coal_share_energy",14.747
+"608","Ireland","Europe","gas_share_energy",25.303
+"609","Ireland","Europe","nuclear_share_energy",0
+"610","Ireland","Europe","hydro_share_energy",1.18
+"611","Ireland","Europe","renewables_share_energy",11.494
+"612","Ireland","Europe","oil_share_energy",47.867
+"613","Israel","Asia","coal_share_energy",26.458
+"614","Israel","Asia","gas_share_energy",28.397
+"615","Israel","Asia","nuclear_share_energy",0
+"616","Israel","Asia","hydro_share_energy",0.022
+"617","Israel","Asia","renewables_share_energy",1.124
+"618","Israel","Asia","oil_share_energy",43.98
+"619","Italy","Europe","coal_share_energy",8.106
+"620","Italy","Europe","gas_share_energy",36.355
+"621","Italy","Europe","nuclear_share_energy",0
+"622","Italy","Europe","hydro_share_energy",6.307
+"623","Italy","Europe","renewables_share_energy",16.244
+"624","Italy","Europe","oil_share_energy",39.295
+"625","Ivory Coast",NA,"coal_share_energy",NA
+"626","Ivory Coast",NA,"gas_share_energy",NA
+"627","Ivory Coast",NA,"nuclear_share_energy",NA
+"628","Ivory Coast",NA,"hydro_share_energy",NA
+"629","Ivory Coast",NA,"renewables_share_energy",NA
+"630","Ivory Coast",NA,"oil_share_energy",NA
+"631","Jamaica","Americas","coal_share_energy",NA
+"632","Jamaica","Americas","gas_share_energy",NA
+"633","Jamaica","Americas","nuclear_share_energy",NA
+"634","Jamaica","Americas","hydro_share_energy",NA
+"635","Jamaica","Americas","renewables_share_energy",NA
+"636","Jamaica","Americas","oil_share_energy",NA
+"637","Japan","Asia","coal_share_energy",26.524
+"638","Japan","Asia","gas_share_energy",22.532
+"639","Japan","Asia","nuclear_share_energy",0.217
+"640","Japan","Asia","hydro_share_energy",4.118
+"641","Japan","Asia","renewables_share_energy",7.395
+"642","Japan","Asia","oil_share_energy",43.244
+"643","Jordan","Asia","coal_share_energy",NA
+"644","Jordan","Asia","gas_share_energy",NA
+"645","Jordan","Asia","nuclear_share_energy",NA
+"646","Jordan","Asia","hydro_share_energy",NA
+"647","Jordan","Asia","renewables_share_energy",NA
+"648","Jordan","Asia","oil_share_energy",NA
+"649","Kazakhstan","Asia","coal_share_energy",53.858
+"650","Kazakhstan","Asia","gas_share_energy",20.74
+"651","Kazakhstan","Asia","nuclear_share_energy",0
+"652","Kazakhstan","Asia","hydro_share_energy",3.172
+"653","Kazakhstan","Asia","renewables_share_energy",3.233
+"654","Kazakhstan","Asia","oil_share_energy",22.165
+"655","Kenya","Africa","coal_share_energy",NA
+"656","Kenya","Africa","gas_share_energy",NA
+"657","Kenya","Africa","nuclear_share_energy",NA
+"658","Kenya","Africa","hydro_share_energy",NA
+"659","Kenya","Africa","renewables_share_energy",NA
+"660","Kenya","Africa","oil_share_energy",NA
+"661","Kiribati","Oceania","coal_share_energy",NA
+"662","Kiribati","Oceania","gas_share_energy",NA
+"663","Kiribati","Oceania","nuclear_share_energy",NA
+"664","Kiribati","Oceania","hydro_share_energy",NA
+"665","Kiribati","Oceania","renewables_share_energy",NA
+"666","Kiribati","Oceania","oil_share_energy",NA
+"667","Kosovo",NA,"coal_share_energy",NA
+"668","Kosovo",NA,"gas_share_energy",NA
+"669","Kosovo",NA,"nuclear_share_energy",NA
+"670","Kosovo",NA,"hydro_share_energy",NA
+"671","Kosovo",NA,"renewables_share_energy",NA
+"672","Kosovo",NA,"oil_share_energy",NA
+"673","Kuwait","Asia","coal_share_energy",0.466
+"674","Kuwait","Asia","gas_share_energy",45.102
+"675","Kuwait","Asia","nuclear_share_energy",0
+"676","Kuwait","Asia","hydro_share_energy",0
+"677","Kuwait","Asia","renewables_share_energy",0.003
+"678","Kuwait","Asia","oil_share_energy",54.429
+"679","Kyrgyzstan","Asia","coal_share_energy",NA
+"680","Kyrgyzstan","Asia","gas_share_energy",NA
+"681","Kyrgyzstan","Asia","nuclear_share_energy",NA
+"682","Kyrgyzstan","Asia","hydro_share_energy",NA
+"683","Kyrgyzstan","Asia","renewables_share_energy",NA
+"684","Kyrgyzstan","Asia","oil_share_energy",NA
+"685","Laos","Asia","coal_share_energy",NA
+"686","Laos","Asia","gas_share_energy",NA
+"687","Laos","Asia","nuclear_share_energy",NA
+"688","Laos","Asia","hydro_share_energy",NA
+"689","Laos","Asia","renewables_share_energy",NA
+"690","Laos","Asia","oil_share_energy",NA
+"691","Latvia","Europe","coal_share_energy",1.315
+"692","Latvia","Europe","gas_share_energy",31.161
+"693","Latvia","Europe","nuclear_share_energy",0
+"694","Latvia","Europe","hydro_share_energy",11.555
+"695","Latvia","Europe","renewables_share_energy",17.223
+"696","Latvia","Europe","oil_share_energy",49.593
+"697","Lebanon","Asia","coal_share_energy",NA
+"698","Lebanon","Asia","gas_share_energy",NA
+"699","Lebanon","Asia","nuclear_share_energy",NA
+"700","Lebanon","Asia","hydro_share_energy",NA
+"701","Lebanon","Asia","renewables_share_energy",NA
+"702","Lebanon","Asia","oil_share_energy",NA
+"703","Lesotho","Africa","coal_share_energy",NA
+"704","Lesotho","Africa","gas_share_energy",NA
+"705","Lesotho","Africa","nuclear_share_energy",NA
+"706","Lesotho","Africa","hydro_share_energy",NA
+"707","Lesotho","Africa","renewables_share_energy",NA
+"708","Lesotho","Africa","oil_share_energy",NA
+"709","Liberia","Africa","coal_share_energy",NA
+"710","Liberia","Africa","gas_share_energy",NA
+"711","Liberia","Africa","nuclear_share_energy",NA
+"712","Liberia","Africa","hydro_share_energy",NA
+"713","Liberia","Africa","renewables_share_energy",NA
+"714","Liberia","Africa","oil_share_energy",NA
+"715","Libya","Africa","coal_share_energy",NA
+"716","Libya","Africa","gas_share_energy",NA
+"717","Libya","Africa","nuclear_share_energy",NA
+"718","Libya","Africa","hydro_share_energy",NA
+"719","Libya","Africa","renewables_share_energy",NA
+"720","Libya","Africa","oil_share_energy",NA
+"721","Lithuania","Europe","coal_share_energy",3.347
+"722","Lithuania","Europe","gas_share_energy",37.923
+"723","Lithuania","Europe","nuclear_share_energy",0
+"724","Lithuania","Europe","hydro_share_energy",1.395
+"725","Lithuania","Europe","renewables_share_energy",6.704
+"726","Lithuania","Europe","oil_share_energy",50.778
+"727","Luxembourg","Europe","coal_share_energy",1.332
+"728","Luxembourg","Europe","gas_share_energy",20.841
+"729","Luxembourg","Europe","nuclear_share_energy",0
+"730","Luxembourg","Europe","hydro_share_energy",0.585
+"731","Luxembourg","Europe","renewables_share_energy",2.54
+"732","Luxembourg","Europe","oil_share_energy",73.082
+"733","Macau","Asia","coal_share_energy",NA
+"734","Macau","Asia","gas_share_energy",NA
+"735","Macau","Asia","nuclear_share_energy",NA
+"736","Macau","Asia","hydro_share_energy",NA
+"737","Macau","Asia","renewables_share_energy",NA
+"738","Macau","Asia","oil_share_energy",NA
+"739","Madagascar","Africa","coal_share_energy",NA
+"740","Madagascar","Africa","gas_share_energy",NA
+"741","Madagascar","Africa","nuclear_share_energy",NA
+"742","Madagascar","Africa","hydro_share_energy",NA
+"743","Madagascar","Africa","renewables_share_energy",NA
+"744","Madagascar","Africa","oil_share_energy",NA
+"745","Malawi","Africa","coal_share_energy",NA
+"746","Malawi","Africa","gas_share_energy",NA
+"747","Malawi","Africa","nuclear_share_energy",NA
+"748","Malawi","Africa","hydro_share_energy",NA
+"749","Malawi","Africa","renewables_share_energy",NA
+"750","Malawi","Africa","oil_share_energy",NA
+"751","Malaysia","Asia","coal_share_energy",18.224
+"752","Malaysia","Asia","gas_share_energy",42.197
+"753","Malaysia","Asia","nuclear_share_energy",0
+"754","Malaysia","Asia","hydro_share_energy",3.173
+"755","Malaysia","Asia","renewables_share_energy",3.407
+"756","Malaysia","Asia","oil_share_energy",35.765
+"757","Maldives","Asia","coal_share_energy",NA
+"758","Maldives","Asia","gas_share_energy",NA
+"759","Maldives","Asia","nuclear_share_energy",NA
+"760","Maldives","Asia","hydro_share_energy",NA
+"761","Maldives","Asia","renewables_share_energy",NA
+"762","Maldives","Asia","oil_share_energy",NA
+"763","Mali","Africa","coal_share_energy",NA
+"764","Mali","Africa","gas_share_energy",NA
+"765","Mali","Africa","nuclear_share_energy",NA
+"766","Mali","Africa","hydro_share_energy",NA
+"767","Mali","Africa","renewables_share_energy",NA
+"768","Mali","Africa","oil_share_energy",NA
+"769","Malta","Europe","coal_share_energy",NA
+"770","Malta","Europe","gas_share_energy",NA
+"771","Malta","Europe","nuclear_share_energy",NA
+"772","Malta","Europe","hydro_share_energy",NA
+"773","Malta","Europe","renewables_share_energy",NA
+"774","Malta","Europe","oil_share_energy",NA
+"775","Martinique","Americas","coal_share_energy",NA
+"776","Martinique","Americas","gas_share_energy",NA
+"777","Martinique","Americas","nuclear_share_energy",NA
+"778","Martinique","Americas","hydro_share_energy",NA
+"779","Martinique","Americas","renewables_share_energy",NA
+"780","Martinique","Americas","oil_share_energy",NA
+"781","Mauritania","Africa","coal_share_energy",NA
+"782","Mauritania","Africa","gas_share_energy",NA
+"783","Mauritania","Africa","nuclear_share_energy",NA
+"784","Mauritania","Africa","hydro_share_energy",NA
+"785","Mauritania","Africa","renewables_share_energy",NA
+"786","Mauritania","Africa","oil_share_energy",NA
+"787","Mauritius","Africa","coal_share_energy",NA
+"788","Mauritius","Africa","gas_share_energy",NA
+"789","Mauritius","Africa","nuclear_share_energy",NA
+"790","Mauritius","Africa","hydro_share_energy",NA
+"791","Mauritius","Africa","renewables_share_energy",NA
+"792","Mauritius","Africa","oil_share_energy",NA
+"793","Mexico","Americas","coal_share_energy",6.914
+"794","Mexico","Americas","gas_share_energy",37.826
+"795","Mexico","Americas","nuclear_share_energy",1.371
+"796","Mexico","Americas","hydro_share_energy",3.659
+"797","Mexico","Americas","renewables_share_energy",5.702
+"798","Mexico","Americas","oil_share_energy",48.187
+"799","Middle Africa",NA,"coal_share_energy",NA
+"800","Middle Africa",NA,"gas_share_energy",NA
+"801","Middle Africa",NA,"nuclear_share_energy",NA
+"802","Middle Africa",NA,"hydro_share_energy",NA
+"803","Middle Africa",NA,"renewables_share_energy",NA
+"804","Middle Africa",NA,"oil_share_energy",NA
+"805","Middle East",NA,"coal_share_energy",NA
+"806","Middle East",NA,"gas_share_energy",NA
+"807","Middle East",NA,"nuclear_share_energy",NA
+"808","Middle East",NA,"hydro_share_energy",NA
+"809","Middle East",NA,"renewables_share_energy",NA
+"810","Middle East",NA,"oil_share_energy",NA
+"811","Moldova","Europe","coal_share_energy",NA
+"812","Moldova","Europe","gas_share_energy",NA
+"813","Moldova","Europe","nuclear_share_energy",NA
+"814","Moldova","Europe","hydro_share_energy",NA
+"815","Moldova","Europe","renewables_share_energy",NA
+"816","Moldova","Europe","oil_share_energy",NA
+"817","Mongolia","Asia","coal_share_energy",NA
+"818","Mongolia","Asia","gas_share_energy",NA
+"819","Mongolia","Asia","nuclear_share_energy",NA
+"820","Mongolia","Asia","hydro_share_energy",NA
+"821","Mongolia","Asia","renewables_share_energy",NA
+"822","Mongolia","Asia","oil_share_energy",NA
+"823","Montenegro","Europe","coal_share_energy",NA
+"824","Montenegro","Europe","gas_share_energy",NA
+"825","Montenegro","Europe","nuclear_share_energy",NA
+"826","Montenegro","Europe","hydro_share_energy",NA
+"827","Montenegro","Europe","renewables_share_energy",NA
+"828","Montenegro","Europe","oil_share_energy",NA
+"829","Montserrat","Americas","coal_share_energy",NA
+"830","Montserrat","Americas","gas_share_energy",NA
+"831","Montserrat","Americas","nuclear_share_energy",NA
+"832","Montserrat","Americas","hydro_share_energy",NA
+"833","Montserrat","Americas","renewables_share_energy",NA
+"834","Montserrat","Americas","oil_share_energy",NA
+"835","Morocco","Africa","coal_share_energy",23.565
+"836","Morocco","Africa","gas_share_energy",5.15
+"837","Morocco","Africa","nuclear_share_energy",0
+"838","Morocco","Africa","hydro_share_energy",2.174
+"839","Morocco","Africa","renewables_share_energy",5.086
+"840","Morocco","Africa","oil_share_energy",66.199
+"841","Mozambique","Africa","coal_share_energy",NA
+"842","Mozambique","Africa","gas_share_energy",NA
+"843","Mozambique","Africa","nuclear_share_energy",NA
+"844","Mozambique","Africa","hydro_share_energy",NA
+"845","Mozambique","Africa","renewables_share_energy",NA
+"846","Mozambique","Africa","oil_share_energy",NA
+"847","Namibia","Africa","coal_share_energy",NA
+"848","Namibia","Africa","gas_share_energy",NA
+"849","Namibia","Africa","nuclear_share_energy",NA
+"850","Namibia","Africa","hydro_share_energy",NA
+"851","Namibia","Africa","renewables_share_energy",NA
+"852","Namibia","Africa","oil_share_energy",NA
+"853","Nauru","Oceania","coal_share_energy",NA
+"854","Nauru","Oceania","gas_share_energy",NA
+"855","Nauru","Oceania","nuclear_share_energy",NA
+"856","Nauru","Oceania","hydro_share_energy",NA
+"857","Nauru","Oceania","renewables_share_energy",NA
+"858","Nauru","Oceania","oil_share_energy",NA
+"859","Nepal","Asia","coal_share_energy",NA
+"860","Nepal","Asia","gas_share_energy",NA
+"861","Nepal","Asia","nuclear_share_energy",NA
+"862","Nepal","Asia","hydro_share_energy",NA
+"863","Nepal","Asia","renewables_share_energy",NA
+"864","Nepal","Asia","oil_share_energy",NA
+"865","Netherlands","Europe","coal_share_energy",13.112
+"866","Netherlands","Europe","gas_share_energy",34.888
+"867","Netherlands","Europe","nuclear_share_energy",1.056
+"868","Netherlands","Europe","hydro_share_energy",0.024
+"869","Netherlands","Europe","renewables_share_energy",3.936
+"870","Netherlands","Europe","oil_share_energy",47.008
+"871","Netherlands Antilles",NA,"coal_share_energy",NA
+"872","Netherlands Antilles",NA,"gas_share_energy",NA
+"873","Netherlands Antilles",NA,"nuclear_share_energy",NA
+"874","Netherlands Antilles",NA,"hydro_share_energy",NA
+"875","Netherlands Antilles",NA,"renewables_share_energy",NA
+"876","Netherlands Antilles",NA,"oil_share_energy",NA
+"877","New Caledonia","Oceania","coal_share_energy",NA
+"878","New Caledonia","Oceania","gas_share_energy",NA
+"879","New Caledonia","Oceania","nuclear_share_energy",NA
+"880","New Caledonia","Oceania","hydro_share_energy",NA
+"881","New Caledonia","Oceania","renewables_share_energy",NA
+"882","New Caledonia","Oceania","oil_share_energy",NA
+"883","New Zealand","Oceania","coal_share_energy",6.75
+"884","New Zealand","Oceania","gas_share_energy",19.699
+"885","New Zealand","Oceania","nuclear_share_energy",0
+"886","New Zealand","Oceania","hydro_share_energy",25.122
+"887","New Zealand","Oceania","renewables_share_energy",36.209
+"888","New Zealand","Oceania","oil_share_energy",37.33
+"889","Nicaragua","Americas","coal_share_energy",NA
+"890","Nicaragua","Americas","gas_share_energy",NA
+"891","Nicaragua","Americas","nuclear_share_energy",NA
+"892","Nicaragua","Americas","hydro_share_energy",NA
+"893","Nicaragua","Americas","renewables_share_energy",NA
+"894","Nicaragua","Americas","oil_share_energy",NA
+"895","Niger","Africa","coal_share_energy",NA
+"896","Niger","Africa","gas_share_energy",NA
+"897","Niger","Africa","nuclear_share_energy",NA
+"898","Niger","Africa","hydro_share_energy",NA
+"899","Niger","Africa","renewables_share_energy",NA
+"900","Niger","Africa","oil_share_energy",NA
+"901","Nigeria","Africa","coal_share_energy",NA
+"902","Nigeria","Africa","gas_share_energy",NA
+"903","Nigeria","Africa","nuclear_share_energy",NA
+"904","Nigeria","Africa","hydro_share_energy",NA
+"905","Nigeria","Africa","renewables_share_energy",NA
+"906","Nigeria","Africa","oil_share_energy",NA
+"907","Niue","Oceania","coal_share_energy",NA
+"908","Niue","Oceania","gas_share_energy",NA
+"909","Niue","Oceania","nuclear_share_energy",NA
+"910","Niue","Oceania","hydro_share_energy",NA
+"911","Niue","Oceania","renewables_share_energy",NA
+"912","Niue","Oceania","oil_share_energy",NA
+"913","North America",NA,"coal_share_energy",14.889
+"914","North America",NA,"gas_share_energy",29.542
+"915","North America",NA,"nuclear_share_energy",7.615
+"916","North America",NA,"hydro_share_energy",5.277
+"917","North America",NA,"renewables_share_energy",9.532
+"918","North America",NA,"oil_share_energy",38.421
+"919","North Korea","Asia","coal_share_energy",NA
+"920","North Korea","Asia","gas_share_energy",NA
+"921","North Korea","Asia","nuclear_share_energy",NA
+"922","North Korea","Asia","hydro_share_energy",NA
+"923","North Korea","Asia","renewables_share_energy",NA
+"924","North Korea","Asia","oil_share_energy",NA
+"925","North Macedonia","Europe","coal_share_energy",38.764
+"926","North Macedonia","Europe","gas_share_energy",4.468
+"927","North Macedonia","Europe","nuclear_share_energy",0
+"928","North Macedonia","Europe","hydro_share_energy",16.191
+"929","North Macedonia","Europe","renewables_share_energy",17.611
+"930","North Macedonia","Europe","oil_share_energy",39.144
+"931","Northern Mariana Islands","Oceania","coal_share_energy",NA
+"932","Northern Mariana Islands","Oceania","gas_share_energy",NA
+"933","Northern Mariana Islands","Oceania","nuclear_share_energy",NA
+"934","Northern Mariana Islands","Oceania","hydro_share_energy",NA
+"935","Northern Mariana Islands","Oceania","renewables_share_energy",NA
+"936","Northern Mariana Islands","Oceania","oil_share_energy",NA
+"937","Norway","Europe","coal_share_energy",1.684
+"938","Norway","Europe","gas_share_energy",8.571
+"939","Norway","Europe","nuclear_share_energy",0
+"940","Norway","Europe","hydro_share_energy",66.017
+"941","Norway","Europe","renewables_share_energy",67.356
+"942","Norway","Europe","oil_share_energy",22.073
+"943","OPEC",NA,"coal_share_energy",NA
+"944","OPEC",NA,"gas_share_energy",NA
+"945","OPEC",NA,"nuclear_share_energy",NA
+"946","OPEC",NA,"hydro_share_energy",NA
+"947","OPEC",NA,"renewables_share_energy",NA
+"948","OPEC",NA,"oil_share_energy",NA
+"949","Oman","Asia","coal_share_energy",0.171
+"950","Oman","Asia","gas_share_energy",68.608
+"951","Oman","Asia","nuclear_share_energy",0
+"952","Oman","Asia","hydro_share_energy",0
+"953","Oman","Asia","renewables_share_energy",0.003
+"954","Oman","Asia","oil_share_energy",31.218
+"955","Other Asia & Pacific",NA,"coal_share_energy",NA
+"956","Other Asia & Pacific",NA,"gas_share_energy",NA
+"957","Other Asia & Pacific",NA,"nuclear_share_energy",NA
+"958","Other Asia & Pacific",NA,"hydro_share_energy",NA
+"959","Other Asia & Pacific",NA,"renewables_share_energy",NA
+"960","Other Asia & Pacific",NA,"oil_share_energy",NA
+"961","Other CIS",NA,"coal_share_energy",NA
+"962","Other CIS",NA,"gas_share_energy",NA
+"963","Other CIS",NA,"nuclear_share_energy",NA
+"964","Other CIS",NA,"hydro_share_energy",NA
+"965","Other CIS",NA,"renewables_share_energy",NA
+"966","Other CIS",NA,"oil_share_energy",NA
+"967","Other Caribbean",NA,"coal_share_energy",NA
+"968","Other Caribbean",NA,"gas_share_energy",NA
+"969","Other Caribbean",NA,"nuclear_share_energy",NA
+"970","Other Caribbean",NA,"hydro_share_energy",NA
+"971","Other Caribbean",NA,"renewables_share_energy",NA
+"972","Other Caribbean",NA,"oil_share_energy",NA
+"973","Other Middle East",NA,"coal_share_energy",NA
+"974","Other Middle East",NA,"gas_share_energy",NA
+"975","Other Middle East",NA,"nuclear_share_energy",NA
+"976","Other Middle East",NA,"hydro_share_energy",NA
+"977","Other Middle East",NA,"renewables_share_energy",NA
+"978","Other Middle East",NA,"oil_share_energy",NA
+"979","Other Northern Africa",NA,"coal_share_energy",NA
+"980","Other Northern Africa",NA,"gas_share_energy",NA
+"981","Other Northern Africa",NA,"nuclear_share_energy",NA
+"982","Other Northern Africa",NA,"hydro_share_energy",NA
+"983","Other Northern Africa",NA,"renewables_share_energy",NA
+"984","Other Northern Africa",NA,"oil_share_energy",NA
+"985","Other South America",NA,"coal_share_energy",NA
+"986","Other South America",NA,"gas_share_energy",NA
+"987","Other South America",NA,"nuclear_share_energy",NA
+"988","Other South America",NA,"hydro_share_energy",NA
+"989","Other South America",NA,"renewables_share_energy",NA
+"990","Other South America",NA,"oil_share_energy",NA
+"991","Other Southern Africa",NA,"coal_share_energy",NA
+"992","Other Southern Africa",NA,"gas_share_energy",NA
+"993","Other Southern Africa",NA,"nuclear_share_energy",NA
+"994","Other Southern Africa",NA,"hydro_share_energy",NA
+"995","Other Southern Africa",NA,"renewables_share_energy",NA
+"996","Other Southern Africa",NA,"oil_share_energy",NA
+"997","Pakistan","Asia","coal_share_energy",6.664
+"998","Pakistan","Asia","gas_share_energy",45.003
+"999","Pakistan","Asia","nuclear_share_energy",1.379
+"1000","Pakistan","Asia","hydro_share_energy",10.212
+"1001","Pakistan","Asia","renewables_share_energy",10.744
+"1002","Pakistan","Asia","oil_share_energy",36.21
+"1003","Palestine","Asia","coal_share_energy",NA
+"1004","Palestine","Asia","gas_share_energy",NA
+"1005","Palestine","Asia","nuclear_share_energy",NA
+"1006","Palestine","Asia","hydro_share_energy",NA
+"1007","Palestine","Asia","renewables_share_energy",NA
+"1008","Palestine","Asia","oil_share_energy",NA
+"1009","Panama","Americas","coal_share_energy",NA
+"1010","Panama","Americas","gas_share_energy",NA
+"1011","Panama","Americas","nuclear_share_energy",NA
+"1012","Panama","Americas","hydro_share_energy",NA
+"1013","Panama","Americas","renewables_share_energy",NA
+"1014","Panama","Americas","oil_share_energy",NA
+"1015","Papua New Guinea","Oceania","coal_share_energy",NA
+"1016","Papua New Guinea","Oceania","gas_share_energy",NA
+"1017","Papua New Guinea","Oceania","nuclear_share_energy",NA
+"1018","Papua New Guinea","Oceania","hydro_share_energy",NA
+"1019","Papua New Guinea","Oceania","renewables_share_energy",NA
+"1020","Papua New Guinea","Oceania","oil_share_energy",NA
+"1021","Paraguay","Americas","coal_share_energy",NA
+"1022","Paraguay","Americas","gas_share_energy",NA
+"1023","Paraguay","Americas","nuclear_share_energy",NA
+"1024","Paraguay","Americas","hydro_share_energy",NA
+"1025","Paraguay","Americas","renewables_share_energy",NA
+"1026","Paraguay","Americas","oil_share_energy",NA
+"1027","Peru","Americas","coal_share_energy",3.321
+"1028","Peru","Americas","gas_share_energy",26.936
+"1029","Peru","Americas","nuclear_share_energy",0
+"1030","Peru","Americas","hydro_share_energy",21.118
+"1031","Peru","Americas","renewables_share_energy",22.662
+"1032","Peru","Americas","oil_share_energy",45.523
+"1033","Philippines","Asia","coal_share_energy",30.619
+"1034","Philippines","Asia","gas_share_energy",7.53
+"1035","Philippines","Asia","nuclear_share_energy",0
+"1036","Philippines","Asia","hydro_share_energy",4.968
+"1037","Philippines","Asia","renewables_share_energy",12.019
+"1038","Philippines","Asia","oil_share_energy",48.687
+"1039","Poland","Europe","coal_share_energy",51.255
+"1040","Poland","Europe","gas_share_energy",15.483
+"1041","Poland","Europe","nuclear_share_energy",0
+"1042","Poland","Europe","hydro_share_energy",0.42
+"1043","Poland","Europe","renewables_share_energy",5.89
+"1044","Poland","Europe","oil_share_energy",27.372
+"1045","Portugal","Europe","coal_share_energy",13.267
+"1046","Portugal","Europe","gas_share_energy",16.866
+"1047","Portugal","Europe","nuclear_share_energy",0
+"1048","Portugal","Europe","hydro_share_energy",7.667
+"1049","Portugal","Europe","renewables_share_energy",23.005
+"1050","Portugal","Europe","oil_share_energy",46.861
+"1051","Puerto Rico","Americas","coal_share_energy",NA
+"1052","Puerto Rico","Americas","gas_share_energy",NA
+"1053","Puerto Rico","Americas","nuclear_share_energy",NA
+"1054","Puerto Rico","Americas","hydro_share_energy",NA
+"1055","Puerto Rico","Americas","renewables_share_energy",NA
+"1056","Puerto Rico","Americas","oil_share_energy",NA
+"1057","Qatar","Asia","coal_share_energy",0
+"1058","Qatar","Asia","gas_share_energy",74.582
+"1059","Qatar","Asia","nuclear_share_energy",0
+"1060","Qatar","Asia","hydro_share_energy",0
+"1061","Qatar","Asia","renewables_share_energy",0.054
+"1062","Qatar","Asia","oil_share_energy",25.364
+"1063","Reunion",NA,"coal_share_energy",NA
+"1064","Reunion",NA,"gas_share_energy",NA
+"1065","Reunion",NA,"nuclear_share_energy",NA
+"1066","Reunion",NA,"hydro_share_energy",NA
+"1067","Reunion",NA,"renewables_share_energy",NA
+"1068","Reunion",NA,"oil_share_energy",NA
+"1069","Romania","Europe","coal_share_energy",18.575
+"1070","Romania","Europe","gas_share_energy",27.485
+"1071","Romania","Europe","nuclear_share_energy",7.804
+"1072","Romania","Europe","hydro_share_energy",11.151
+"1073","Romania","Europe","renewables_share_energy",17.567
+"1074","Romania","Europe","oil_share_energy",28.073
+"1075","Russia","Europe","coal_share_energy",13.706
+"1076","Russia","Europe","gas_share_energy",52.282
+"1077","Russia","Europe","nuclear_share_energy",6.326
+"1078","Russia","Europe","hydro_share_energy",5.437
+"1079","Russia","Europe","renewables_share_energy",5.468
+"1080","Russia","Europe","oil_share_energy",22.218
+"1081","Rwanda","Africa","coal_share_energy",NA
+"1082","Rwanda","Africa","gas_share_energy",NA
+"1083","Rwanda","Africa","nuclear_share_energy",NA
+"1084","Rwanda","Africa","hydro_share_energy",NA
+"1085","Rwanda","Africa","renewables_share_energy",NA
+"1086","Rwanda","Africa","oil_share_energy",NA
+"1087","Saint Helena","Africa","coal_share_energy",NA
+"1088","Saint Helena","Africa","gas_share_energy",NA
+"1089","Saint Helena","Africa","nuclear_share_energy",NA
+"1090","Saint Helena","Africa","hydro_share_energy",NA
+"1091","Saint Helena","Africa","renewables_share_energy",NA
+"1092","Saint Helena","Africa","oil_share_energy",NA
+"1093","Saint Kitts and Nevis","Americas","coal_share_energy",NA
+"1094","Saint Kitts and Nevis","Americas","gas_share_energy",NA
+"1095","Saint Kitts and Nevis","Americas","nuclear_share_energy",NA
+"1096","Saint Kitts and Nevis","Americas","hydro_share_energy",NA
+"1097","Saint Kitts and Nevis","Americas","renewables_share_energy",NA
+"1098","Saint Kitts and Nevis","Americas","oil_share_energy",NA
+"1099","Saint Lucia","Americas","coal_share_energy",NA
+"1100","Saint Lucia","Americas","gas_share_energy",NA
+"1101","Saint Lucia","Americas","nuclear_share_energy",NA
+"1102","Saint Lucia","Americas","hydro_share_energy",NA
+"1103","Saint Lucia","Americas","renewables_share_energy",NA
+"1104","Saint Lucia","Americas","oil_share_energy",NA
+"1105","Saint Pierre and Miquelon","Americas","coal_share_energy",NA
+"1106","Saint Pierre and Miquelon","Americas","gas_share_energy",NA
+"1107","Saint Pierre and Miquelon","Americas","nuclear_share_energy",NA
+"1108","Saint Pierre and Miquelon","Americas","hydro_share_energy",NA
+"1109","Saint Pierre and Miquelon","Americas","renewables_share_energy",NA
+"1110","Saint Pierre and Miquelon","Americas","oil_share_energy",NA
+"1111","Saint Vincent and the Grenadines","Americas","coal_share_energy",NA
+"1112","Saint Vincent and the Grenadines","Americas","gas_share_energy",NA
+"1113","Saint Vincent and the Grenadines","Americas","nuclear_share_energy",NA
+"1114","Saint Vincent and the Grenadines","Americas","hydro_share_energy",NA
+"1115","Saint Vincent and the Grenadines","Americas","renewables_share_energy",NA
+"1116","Saint Vincent and the Grenadines","Americas","oil_share_energy",NA
+"1117","Samoa","Oceania","coal_share_energy",NA
+"1118","Samoa","Oceania","gas_share_energy",NA
+"1119","Samoa","Oceania","nuclear_share_energy",NA
+"1120","Samoa","Oceania","hydro_share_energy",NA
+"1121","Samoa","Oceania","renewables_share_energy",NA
+"1122","Samoa","Oceania","oil_share_energy",NA
+"1123","Sao Tome and Principe","Africa","coal_share_energy",NA
+"1124","Sao Tome and Principe","Africa","gas_share_energy",NA
+"1125","Sao Tome and Principe","Africa","nuclear_share_energy",NA
+"1126","Sao Tome and Principe","Africa","hydro_share_energy",NA
+"1127","Sao Tome and Principe","Africa","renewables_share_energy",NA
+"1128","Sao Tome and Principe","Africa","oil_share_energy",NA
+"1129","Saudi Arabia","Asia","coal_share_energy",0.051
+"1130","Saudi Arabia","Asia","gas_share_energy",32.972
+"1131","Saudi Arabia","Asia","nuclear_share_energy",0
+"1132","Saudi Arabia","Asia","hydro_share_energy",0
+"1133","Saudi Arabia","Asia","renewables_share_energy",0.011
+"1134","Saudi Arabia","Asia","oil_share_energy",66.966
+"1135","Senegal","Africa","coal_share_energy",NA
+"1136","Senegal","Africa","gas_share_energy",NA
+"1137","Senegal","Africa","nuclear_share_energy",NA
+"1138","Senegal","Africa","hydro_share_energy",NA
+"1139","Senegal","Africa","renewables_share_energy",NA
+"1140","Senegal","Africa","oil_share_energy",NA
+"1141","Serbia","Europe","coal_share_energy",NA
+"1142","Serbia","Europe","gas_share_energy",NA
+"1143","Serbia","Europe","nuclear_share_energy",NA
+"1144","Serbia","Europe","hydro_share_energy",NA
+"1145","Serbia","Europe","renewables_share_energy",NA
+"1146","Serbia","Europe","oil_share_energy",NA
+"1147","Seychelles","Africa","coal_share_energy",NA
+"1148","Seychelles","Africa","gas_share_energy",NA
+"1149","Seychelles","Africa","nuclear_share_energy",NA
+"1150","Seychelles","Africa","hydro_share_energy",NA
+"1151","Seychelles","Africa","renewables_share_energy",NA
+"1152","Seychelles","Africa","oil_share_energy",NA
+"1153","Sierra Leone","Africa","coal_share_energy",NA
+"1154","Sierra Leone","Africa","gas_share_energy",NA
+"1155","Sierra Leone","Africa","nuclear_share_energy",NA
+"1156","Sierra Leone","Africa","hydro_share_energy",NA
+"1157","Sierra Leone","Africa","renewables_share_energy",NA
+"1158","Sierra Leone","Africa","oil_share_energy",NA
+"1159","Singapore","Asia","coal_share_energy",0.508
+"1160","Singapore","Asia","gas_share_energy",12.436
+"1161","Singapore","Asia","nuclear_share_energy",0
+"1162","Singapore","Asia","hydro_share_energy",0
+"1163","Singapore","Asia","renewables_share_energy",0.234
+"1164","Singapore","Asia","oil_share_energy",86.822
+"1165","Slovakia","Europe","coal_share_energy",20.898
+"1166","Slovakia","Europe","gas_share_energy",25.021
+"1167","Slovakia","Europe","nuclear_share_energy",21.249
+"1168","Slovakia","Europe","hydro_share_energy",5.706
+"1169","Slovakia","Europe","renewables_share_energy",8.756
+"1170","Slovakia","Europe","oil_share_energy",23.104
+"1171","Slovenia","Europe","coal_share_energy",16.806
+"1172","Slovenia","Europe","gas_share_energy",10.484
+"1173","Slovenia","Europe","nuclear_share_energy",19.392
+"1174","Slovenia","Europe","hydro_share_energy",13.075
+"1175","Slovenia","Europe","renewables_share_energy",14.953
+"1176","Slovenia","Europe","oil_share_energy",37.892
+"1177","Solomon Islands","Oceania","coal_share_energy",NA
+"1178","Solomon Islands","Oceania","gas_share_energy",NA
+"1179","Solomon Islands","Oceania","nuclear_share_energy",NA
+"1180","Solomon Islands","Oceania","hydro_share_energy",NA
+"1181","Solomon Islands","Oceania","renewables_share_energy",NA
+"1182","Solomon Islands","Oceania","oil_share_energy",NA
+"1183","Somalia","Africa","coal_share_energy",NA
+"1184","Somalia","Africa","gas_share_energy",NA
+"1185","Somalia","Africa","nuclear_share_energy",NA
+"1186","Somalia","Africa","hydro_share_energy",NA
+"1187","Somalia","Africa","renewables_share_energy",NA
+"1188","Somalia","Africa","oil_share_energy",NA
+"1189","South & Central America",NA,"coal_share_energy",NA
+"1190","South & Central America",NA,"gas_share_energy",NA
+"1191","South & Central America",NA,"nuclear_share_energy",NA
+"1192","South & Central America",NA,"hydro_share_energy",NA
+"1193","South & Central America",NA,"renewables_share_energy",NA
+"1194","South & Central America",NA,"oil_share_energy",NA
+"1195","South Africa","Africa","coal_share_energy",69.671
+"1196","South Africa","Africa","gas_share_energy",3.081
+"1197","South Africa","Africa","nuclear_share_energy",2.209
+"1198","South Africa","Africa","hydro_share_energy",0.145
+"1199","South Africa","Africa","renewables_share_energy",1.27
+"1200","South Africa","Africa","oil_share_energy",23.746
+"1201","South Korea","Asia","coal_share_energy",30.122
+"1202","South Korea","Asia","gas_share_energy",13.845
+"1203","South Korea","Asia","nuclear_share_energy",12.641
+"1204","South Korea","Asia","hydro_share_energy",0.165
+"1205","South Korea","Asia","renewables_share_energy",1.163
+"1206","South Korea","Asia","oil_share_energy",42.229
+"1207","South Sudan","Africa","coal_share_energy",NA
+"1208","South Sudan","Africa","gas_share_energy",NA
+"1209","South Sudan","Africa","nuclear_share_energy",NA
+"1210","South Sudan","Africa","hydro_share_energy",NA
+"1211","South Sudan","Africa","renewables_share_energy",NA
+"1212","South Sudan","Africa","oil_share_energy",NA
+"1213","Spain","Europe","coal_share_energy",10.21
+"1214","Spain","Europe","gas_share_energy",18.304
+"1215","Spain","Europe","nuclear_share_energy",9.298
+"1216","Spain","Europe","hydro_share_energy",4.566
+"1217","Spain","Europe","renewables_share_energy",16.493
+"1218","Spain","Europe","oil_share_energy",45.694
+"1219","Sri Lanka","Asia","coal_share_energy",17.831
+"1220","Sri Lanka","Asia","gas_share_energy",0
+"1221","Sri Lanka","Asia","nuclear_share_energy",0
+"1222","Sri Lanka","Asia","hydro_share_energy",18.721
+"1223","Sri Lanka","Asia","renewables_share_energy",20.127
+"1224","Sri Lanka","Asia","oil_share_energy",62.041
+"1225","Sudan","Africa","coal_share_energy",NA
+"1226","Sudan","Africa","gas_share_energy",NA
+"1227","Sudan","Africa","nuclear_share_energy",NA
+"1228","Sudan","Africa","hydro_share_energy",NA
+"1229","Sudan","Africa","renewables_share_energy",NA
+"1230","Sudan","Africa","oil_share_energy",NA
+"1231","Suriname","Americas","coal_share_energy",NA
+"1232","Suriname","Americas","gas_share_energy",NA
+"1233","Suriname","Americas","nuclear_share_energy",NA
+"1234","Suriname","Americas","hydro_share_energy",NA
+"1235","Suriname","Americas","renewables_share_energy",NA
+"1236","Suriname","Americas","oil_share_energy",NA
+"1237","Sweden","Europe","coal_share_energy",3.882
+"1238","Sweden","Europe","gas_share_energy",1.544
+"1239","Sweden","Europe","nuclear_share_energy",23.582
+"1240","Sweden","Europe","hydro_share_energy",31.519
+"1241","Sweden","Europe","renewables_share_energy",44.85
+"1242","Sweden","Europe","oil_share_energy",26.141
+"1243","Switzerland","Europe","coal_share_energy",0.442
+"1244","Switzerland","Europe","gas_share_energy",10.134
+"1245","Switzerland","Europe","nuclear_share_energy",17.975
+"1246","Switzerland","Europe","hydro_share_energy",29.57
+"1247","Switzerland","Europe","renewables_share_energy",31.757
+"1248","Switzerland","Europe","oil_share_energy",39.512
+"1249","Syria","Asia","coal_share_energy",NA
+"1250","Syria","Asia","gas_share_energy",NA
+"1251","Syria","Asia","nuclear_share_energy",NA
+"1252","Syria","Asia","hydro_share_energy",NA
+"1253","Syria","Asia","renewables_share_energy",NA
+"1254","Syria","Asia","oil_share_energy",NA
+"1255","Taiwan","Asia","coal_share_energy",34.421
+"1256","Taiwan","Asia","gas_share_energy",15.234
+"1257","Taiwan","Asia","nuclear_share_energy",6.965
+"1258","Taiwan","Asia","hydro_share_energy",0.854
+"1259","Taiwan","Asia","renewables_share_energy",1.682
+"1260","Taiwan","Asia","oil_share_energy",41.697
+"1261","Tajikistan","Asia","coal_share_energy",NA
+"1262","Tajikistan","Asia","gas_share_energy",NA
+"1263","Tajikistan","Asia","nuclear_share_energy",NA
+"1264","Tajikistan","Asia","hydro_share_energy",NA
+"1265","Tajikistan","Asia","renewables_share_energy",NA
+"1266","Tajikistan","Asia","oil_share_energy",NA
+"1267","Tanzania","Africa","coal_share_energy",NA
+"1268","Tanzania","Africa","gas_share_energy",NA
+"1269","Tanzania","Africa","nuclear_share_energy",NA
+"1270","Tanzania","Africa","hydro_share_energy",NA
+"1271","Tanzania","Africa","renewables_share_energy",NA
+"1272","Tanzania","Africa","oil_share_energy",NA
+"1273","Thailand","Asia","coal_share_energy",14.005
+"1274","Thailand","Asia","gas_share_energy",34.973
+"1275","Thailand","Asia","nuclear_share_energy",0
+"1276","Thailand","Asia","hydro_share_energy",0.653
+"1277","Thailand","Asia","renewables_share_energy",3.719
+"1278","Thailand","Asia","oil_share_energy",47.302
+"1279","Timor","Asia","coal_share_energy",NA
+"1280","Timor","Asia","gas_share_energy",NA
+"1281","Timor","Asia","nuclear_share_energy",NA
+"1282","Timor","Asia","hydro_share_energy",NA
+"1283","Timor","Asia","renewables_share_energy",NA
+"1284","Timor","Asia","oil_share_energy",NA
+"1285","Togo","Africa","coal_share_energy",NA
+"1286","Togo","Africa","gas_share_energy",NA
+"1287","Togo","Africa","nuclear_share_energy",NA
+"1288","Togo","Africa","hydro_share_energy",NA
+"1289","Togo","Africa","renewables_share_energy",NA
+"1290","Togo","Africa","oil_share_energy",NA
+"1291","Tonga","Oceania","coal_share_energy",NA
+"1292","Tonga","Oceania","gas_share_energy",NA
+"1293","Tonga","Oceania","nuclear_share_energy",NA
+"1294","Tonga","Oceania","hydro_share_energy",NA
+"1295","Tonga","Oceania","renewables_share_energy",NA
+"1296","Tonga","Oceania","oil_share_energy",NA
+"1297","Trinidad and Tobago","Americas","coal_share_energy",0
+"1298","Trinidad and Tobago","Americas","gas_share_energy",88.19
+"1299","Trinidad and Tobago","Americas","nuclear_share_energy",0
+"1300","Trinidad and Tobago","Americas","hydro_share_energy",0
+"1301","Trinidad and Tobago","Americas","renewables_share_energy",0.006
+"1302","Trinidad and Tobago","Americas","oil_share_energy",11.804
+"1303","Tunisia","Africa","coal_share_energy",NA
+"1304","Tunisia","Africa","gas_share_energy",NA
+"1305","Tunisia","Africa","nuclear_share_energy",NA
+"1306","Tunisia","Africa","hydro_share_energy",NA
+"1307","Tunisia","Africa","renewables_share_energy",NA
+"1308","Tunisia","Africa","oil_share_energy",NA
+"1309","Turkey","Asia","coal_share_energy",25.414
+"1310","Turkey","Asia","gas_share_energy",28.909
+"1311","Turkey","Asia","nuclear_share_energy",0
+"1312","Turkey","Asia","hydro_share_energy",10.685
+"1313","Turkey","Asia","renewables_share_energy",13.312
+"1314","Turkey","Asia","oil_share_energy",32.289
+"1315","Turkmenistan","Asia","coal_share_energy",0
+"1316","Turkmenistan","Asia","gas_share_energy",76.276
+"1317","Turkmenistan","Asia","nuclear_share_energy",0
+"1318","Turkmenistan","Asia","hydro_share_energy",0.002
+"1319","Turkmenistan","Asia","renewables_share_energy",0.006
+"1320","Turkmenistan","Asia","oil_share_energy",23.718
+"1321","Turks and Caicos Islands","Americas","coal_share_energy",NA
+"1322","Turks and Caicos Islands","Americas","gas_share_energy",NA
+"1323","Turks and Caicos Islands","Americas","nuclear_share_energy",NA
+"1324","Turks and Caicos Islands","Americas","hydro_share_energy",NA
+"1325","Turks and Caicos Islands","Americas","renewables_share_energy",NA
+"1326","Turks and Caicos Islands","Americas","oil_share_energy",NA
+"1327","Uganda","Africa","coal_share_energy",NA
+"1328","Uganda","Africa","gas_share_energy",NA
+"1329","Uganda","Africa","nuclear_share_energy",NA
+"1330","Uganda","Africa","hydro_share_energy",NA
+"1331","Uganda","Africa","renewables_share_energy",NA
+"1332","Uganda","Africa","oil_share_energy",NA
+"1333","Ukraine","Europe","coal_share_energy",32.242
+"1334","Ukraine","Europe","gas_share_energy",32.432
+"1335","Ukraine","Europe","nuclear_share_energy",22.475
+"1336","Ukraine","Europe","hydro_share_energy",1.384
+"1337","Ukraine","Europe","renewables_share_energy",1.822
+"1338","Ukraine","Europe","oil_share_energy",10.988
+"1339","United Arab Emirates","Asia","coal_share_energy",1.601
+"1340","United Arab Emirates","Asia","gas_share_energy",57.431
+"1341","United Arab Emirates","Asia","nuclear_share_energy",0
+"1342","United Arab Emirates","Asia","hydro_share_energy",0
+"1343","United Arab Emirates","Asia","renewables_share_energy",0.065
+"1344","United Arab Emirates","Asia","oil_share_energy",40.904
+"1345","United Kingdom","Europe","coal_share_energy",11.911
+"1346","United Kingdom","Europe","gas_share_energy",31.978
+"1347","United Kingdom","Europe","nuclear_share_energy",7.899
+"1348","United Kingdom","Europe","hydro_share_energy",0.707
+"1349","United Kingdom","Europe","renewables_share_energy",9.853
+"1350","United Kingdom","Europe","oil_share_energy",38.359
+"1351","United States","Americas","coal_share_energy",16.912
+"1352","United States","Americas","gas_share_energy",29.05
+"1353","United States","Americas","nuclear_share_energy",8.293
+"1354","United States","Americas","hydro_share_energy",2.436
+"1355","United States","Americas","renewables_share_energy",7.047
+"1356","United States","Americas","oil_share_energy",38.698
+"1357","United States Pacific Islands",NA,"coal_share_energy",NA
+"1358","United States Pacific Islands",NA,"gas_share_energy",NA
+"1359","United States Pacific Islands",NA,"nuclear_share_energy",NA
+"1360","United States Pacific Islands",NA,"hydro_share_energy",NA
+"1361","United States Pacific Islands",NA,"renewables_share_energy",NA
+"1362","United States Pacific Islands",NA,"oil_share_energy",NA
+"1363","United States Virgin Islands","Americas","coal_share_energy",NA
+"1364","United States Virgin Islands","Americas","gas_share_energy",NA
+"1365","United States Virgin Islands","Americas","nuclear_share_energy",NA
+"1366","United States Virgin Islands","Americas","hydro_share_energy",NA
+"1367","United States Virgin Islands","Americas","renewables_share_energy",NA
+"1368","United States Virgin Islands","Americas","oil_share_energy",NA
+"1369","Uruguay","Americas","coal_share_energy",NA
+"1370","Uruguay","Americas","gas_share_energy",NA
+"1371","Uruguay","Americas","nuclear_share_energy",NA
+"1372","Uruguay","Americas","hydro_share_energy",NA
+"1373","Uruguay","Americas","renewables_share_energy",NA
+"1374","Uruguay","Americas","oil_share_energy",NA
+"1375","Uzbekistan","Asia","coal_share_energy",3.088
+"1376","Uzbekistan","Asia","gas_share_energy",88.269
+"1377","Uzbekistan","Asia","nuclear_share_energy",0
+"1378","Uzbekistan","Asia","hydro_share_energy",2.901
+"1379","Uzbekistan","Asia","renewables_share_energy",2.901
+"1380","Uzbekistan","Asia","oil_share_energy",5.742
+"1381","Vanuatu","Oceania","coal_share_energy",NA
+"1382","Vanuatu","Oceania","gas_share_energy",NA
+"1383","Vanuatu","Oceania","nuclear_share_energy",NA
+"1384","Vanuatu","Oceania","hydro_share_energy",NA
+"1385","Vanuatu","Oceania","renewables_share_energy",NA
+"1386","Vanuatu","Oceania","oil_share_energy",NA
+"1387","Venezuela","Americas","coal_share_energy",0.173
+"1388","Venezuela","Americas","gas_share_energy",40.472
+"1389","Venezuela","Americas","nuclear_share_energy",0
+"1390","Venezuela","Americas","hydro_share_energy",20.289
+"1391","Venezuela","Americas","renewables_share_energy",20.292
+"1392","Venezuela","Americas","oil_share_energy",39.063
+"1393","Vietnam","Asia","coal_share_energy",37.935
+"1394","Vietnam","Asia","gas_share_energy",12.789
+"1395","Vietnam","Asia","nuclear_share_energy",0
+"1396","Vietnam","Asia","hydro_share_energy",17.981
+"1397","Vietnam","Asia","renewables_share_energy",18.061
+"1398","Vietnam","Asia","oil_share_energy",31.214
+"1399","Western Africa",NA,"coal_share_energy",NA
+"1400","Western Africa",NA,"gas_share_energy",NA
+"1401","Western Africa",NA,"nuclear_share_energy",NA
+"1402","Western Africa",NA,"hydro_share_energy",NA
+"1403","Western Africa",NA,"renewables_share_energy",NA
+"1404","Western Africa",NA,"oil_share_energy",NA
+"1405","Western Sahara","Africa","coal_share_energy",NA
+"1406","Western Sahara","Africa","gas_share_energy",NA
+"1407","Western Sahara","Africa","nuclear_share_energy",NA
+"1408","Western Sahara","Africa","hydro_share_energy",NA
+"1409","Western Sahara","Africa","renewables_share_energy",NA
+"1410","Western Sahara","Africa","oil_share_energy",NA
+"1411","World",NA,"coal_share_energy",29.059
+"1412","World",NA,"gas_share_energy",23.051
+"1413","World",NA,"nuclear_share_energy",4.319
+"1414","World",NA,"hydro_share_energy",6.513
+"1415","World",NA,"renewables_share_energy",9.842
+"1416","World",NA,"oil_share_energy",33.73
+"1417","Yemen","Asia","coal_share_energy",NA
+"1418","Yemen","Asia","gas_share_energy",NA
+"1419","Yemen","Asia","nuclear_share_energy",NA
+"1420","Yemen","Asia","hydro_share_energy",NA
+"1421","Yemen","Asia","renewables_share_energy",NA
+"1422","Yemen","Asia","oil_share_energy",NA
+"1423","Zambia","Africa","coal_share_energy",NA
+"1424","Zambia","Africa","gas_share_energy",NA
+"1425","Zambia","Africa","nuclear_share_energy",NA
+"1426","Zambia","Africa","hydro_share_energy",NA
+"1427","Zambia","Africa","renewables_share_energy",NA
+"1428","Zambia","Africa","oil_share_energy",NA
+"1429","Zimbabwe","Africa","coal_share_energy",NA
+"1430","Zimbabwe","Africa","gas_share_energy",NA
+"1431","Zimbabwe","Africa","nuclear_share_energy",NA
+"1432","Zimbabwe","Africa","hydro_share_energy",NA
+"1433","Zimbabwe","Africa","renewables_share_energy",NA
+"1434","Zimbabwe","Africa","oil_share_energy",NA
