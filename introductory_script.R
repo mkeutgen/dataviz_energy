@@ -71,10 +71,24 @@ t.lf$year
 
 df.energysource2015 <- data %>% filter(year==2015) %>% select("coal_share_energy","gas_share_energy","nuclear_share_energy",
                                                               "hydro_share_energy","renewables_share_energy","oil_share_energy","country","continent") 
-df.energysource2015$coal_share_energy
+
+
+
 df.lf <- pivot_longer(data=df.energysource2015,cols = c("coal_share_energy","gas_share_energy","nuclear_share_energy","hydro_share_energy","renewables_share_energy","oil_share_energy"),values_to="consumption",names_to="share energy")
 df.lf %>% group_by(continent)%>% mutate(grandsum=sum(consumption,na.rm = TRUE)) %>% ungroup()
-prop_source_by_continent_2015 <- df.lf %>% filter(country %in% c("Africa","Europe","Oceania","South Africa","North America","Asia")) %>% group_by(country) %>% mutate(grand.sum=sum(consumption,na.rm = T),proportion=consumption/grand.sum)  
+
+df.lf %>% filter(!(country %in% c("Africa","Europe","Oceania","South America","North America","Asia"))) %>% group_by(continent,`share energy`) %>% 
+  summarise(sum.energysource=sum(consumption,na.rm = T)) %>% ungroup() %>% group_by(continent) %>% mutate(grand.sum = sum(sum.energysource),proportion=)
+View(prop_source_by_continent_2015)
+prop_source_by_continent_2015
+
+View(prop_source_by_continent_2015)
+View(df.lf)
+View(prop_source_by_continent_2015)
+
+
+prop_source_by_continent_2015 <- df.lf %>% filter()
+
 
 
 write.csv(df.lf,file = "df.energysource2015.csv")
