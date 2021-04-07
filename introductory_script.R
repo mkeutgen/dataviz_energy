@@ -8,7 +8,7 @@ library(ggrepel)
 data <- read.csv("owid-energy-data.csv")
 data$gdp.billion <- data$gdp/10^9
 # Add the continents
-countryContinent <- read.csv("~/Documents/MStatistics/DataVisualisation/countryContinent.csv", header=TRUE)
+countryContinent <- read.csv("~/Documents/MStatistics/DataVisualisation/DataVizGit/countryContinent.csv", header=TRUE)
 countryContinent <- countryContinent %>% select(code_3,continent,sub_region)
 
 data <- full_join(data,countryContinent,by=c("iso_code"="code_3"))
