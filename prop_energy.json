@@ -1,0 +1,47 @@
+{
+  "data": {
+    "url": "https://raw.githubusercontent.com/mkeutgen/dataviz_energy/main/prop_source_by_continent_2015",
+    "format": {"type": "csv"}
+  },
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "continent",
+      "type": "nominal",
+      "domain": ["Africa", "Europe", "Asia", "Americas", "Asia"],
+      "title": "Continent"
+    },
+    "y": {
+      "field": "proportion",
+      "aggregate": "sum",
+      "type": "quantitative",
+      "stack": "normalize",
+      "title": "Proportion"
+    },
+    "color": {
+      "field": "share energy",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "coal_share_energy",
+          "gas_share_energy",
+          "nuclear_share_energy",
+          "hydro_share_energy",
+          "renewables_share_energy",
+          "oil_share_energy"
+        ],
+        "range": [
+          "#7fc97f",
+          "#beaed4",
+          "#fdc086",
+          "#ffff99",
+          "#386cb0",
+          "#f0027f"
+        ]
+      },
+      "title": "Energy Type"
+    }
+  },
+  "config": {}
+}
